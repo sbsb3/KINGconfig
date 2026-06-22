@@ -1,0 +1,72 @@
+DYNAMIC hats/cig 0 0 fag
+DYNAMIC hats/cso_like_costumes_head 0 0 angelhead
+DYNAMIC hats/cso_like_costumes_head 2 2 cathead
+DYNAMIC hats/cso_like_costumes_head 4 4 devilhead
+DYNAMIC hats/cso_like_costumes_head 5 5 goldhead
+DYNAMIC hats/cso_like_costumes_head 6 6 pandahead
+DYNAMIC hats/cso_like_costumes_head 7 7 pighead
+DYNAMIC hats/cso_like_costumes_pelvis 0 0 cattail
+DYNAMIC hats/cso_like_costumes_pelvis 1 1 deviltail
+DYNAMIC hats/cso_like_costumes_pelvis 2 2 booptail
+DYNAMIC hats/cso_like_costumes_pelvis 3 4 pigtail
+DYNAMIC player/padoru_padoru/padoru_padoru 0 0 padoru
+DYNAMIC twlz/hats/botguy_v1 0 0 mic_chan
+DYNAMIC twlz/hats/devilwing 0 0 devilwing
+DYNAMIC twlz/hats/randoseru_s_v2 0 0 randoseru_s
+STATIC hats/afro
+STATIC hats/angel2
+STATIC hats/anticross
+STATIC hats/arrow
+STATIC hats/beerhat
+STATIC hats/bunnymask
+STATIC hats/camohat
+STATIC hats/clocknecklace
+STATIC hats/cowboy
+STATIC hats/cross
+STATIC hats/devil2
+STATIC hats/gasmask_wh
+STATIC hats/headcrab
+STATIC hats/headphones
+STATIC hats/hood
+STATIC hats/jamacahat2
+STATIC hats/magic
+STATIC hats/mask
+STATIC hats/paperbag
+STATIC hats/pirate2
+STATIC hats/pyramidhead_new
+STATIC hats/ricefarmer
+STATIC hats/santahat
+STATIC hats/santahat2
+STATIC hats/shades
+STATIC hats/stahlhelm
+STATIC hats/sumbraro2
+STATIC hats/tank
+STATIC hats/tophat
+STATIC hats/tutu
+STATIC hats/tweedle
+STATIC hats/ushanka
+STATIC hats/viking
+STATIC hats/wehrmacht
+STATIC twlz/hats/autism
+STATIC twlz/hats/aviators
+STATIC twlz/hats/azusa_big
+STATIC twlz/hats/baron_bunny_new
+STATIC twlz/hats/beret
+STATIC twlz/hats/chef
+STATIC twlz/hats/clown_wig
+STATIC twlz/hats/collar_pink
+STATIC twlz/hats/cophat
+STATIC twlz/hats/crown
+STATIC twlz/hats/deal_with_it
+STATIC twlz/hats/elf
+STATIC twlz/hats/fox_hat
+STATIC twlz/hats/fox_hat_b
+STATIC twlz/hats/inosuke
+STATIC twlz/hats/jotaro_hat
+STATIC twlz/hats/kermit_cap
+STATIC twlz/hats/kfcbucket
+STATIC twlz/hats/randoseru
+STATIC twlz/hats/randoseru_padoru
+STATIC twlz/hats/ushanka_2
+STATIC twlz/hats/wehrmacht2
+STATIC twlz/hats/wing_freedom

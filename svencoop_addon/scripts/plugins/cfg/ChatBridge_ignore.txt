@@ -1,0 +1,105 @@
+# ChatBridge ignore list
+# One command per line, no prefix needed.
+# "buy" will match: buy  .buy  /buy  !buy  .buy item  etc.
+# Lines starting with # are ignored.
+
+# ChatBridge ignore list
+# One command per line, no prefix needed.
+# "buy" matches: buy  .buy  /buy  !buy  .buy item  etc.
+# A lone "." always passes through regardless of this list.
+# Lines starting with # are ignored.
+
+# --- Misc admin ---
+afb_help
+cm
+diff
+ent_info
+ghostjail
+map
+set_nextmap
+survival
+ps
+partymodeon
+partymodeoff
+
+# --- Fun ---
+color
+brapcolor
+cshelp
+cshelpg
+e
+fish
+ghosts
+lagc
+plop
+autoplop
+pp
+radio
+r1
+r2
+r3
+skin
+vc
+hat
+pet
+glow
+trail
+party?
+rnom
+
+# --- Useful ---
+nightvision
+flashlight
+buy
+check
+dosh
+tp
+s
+p
+observer
+hipoly
+lost
+modelswap
+mute
+nofade
+viewhelp
+vote
+spec
+spectate
+
+# --- Voting / map ---
+rtv
+nom
+unnom
+unrtv
+
+# --- Info ---
+listmodels
+help_icons
+help_cfg
+help_more
+afk?
+endless?
+series?
+listnom
+listmaps
+maplist
+speedometer
+
+# --- Chat sounds ---
+csmute
+cstop
+csvol
+cspitch
+csstats
+listsounds
+listsounds2
+cs
+csload
+csunload
+cslist
+csmic
+csreliable
+annoy
+nofx
+

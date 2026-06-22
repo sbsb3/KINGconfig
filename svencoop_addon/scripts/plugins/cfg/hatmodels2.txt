@@ -1,0 +1,23 @@
+DYNAMIC hats/cso_like_costumes_head 0 0 angelhead
+DYNAMIC hats/cso_like_costumes_head 2 2 cathead
+DYNAMIC hats/cso_like_costumes_head 4 4 devilhead
+DYNAMIC hats/cso_like_costumes_head 5 5 goldhead
+DYNAMIC hats/cso_like_costumes_head 6 6 pandahead
+DYNAMIC hats/cso_like_costumes_head 7 7 pighead
+DYNAMIC hats/cso_like_costumes_pelvis 0 0 cattail
+DYNAMIC hats/cso_like_costumes_pelvis 1 1 deviltail
+DYNAMIC hats/cso_like_costumes_pelvis 2 2 booptail
+DYNAMIC hats/cso_like_costumes_pelvis 3 4 pigtail
+DYNAMIC player/padoru_padoru/padoru_padoru 0 0 padoru
+DYNAMIC twlz/hats/botguy_v1 0 0 mic_chan
+DYNAMIC twlz/hats/devilwing 0 0 devilwing
+DYNAMIC twlz/hats/randoseru_s_v2 0 0 randoseru_s
+STATIC hats/afro
+STATIC hats/beerhat
+STATIC hats/cowboy
+STATIC hats/gasmask_wh
+STATIC hats/santahat
+STATIC hats/shades
+STATIC hats/tophat
+STATIC twlz/hats/jotaro_hat
+STATIC twlz/hats/kfcbucket
