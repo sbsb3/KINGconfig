@@ -9,10 +9,13 @@
 4ways
 5am
 5minutes_b1
+5waystodie1-2
 6doors
 7days_r_1
 7hourswar_ep1
 7hourswarep1-2m
+TD-1
+WRECK
 _player_sanctuary
 a_jungle_1
 aa_protozoaire
@@ -24,6 +27,7 @@ acopz1-2m
 actual
 actual1-2m
 adams_dungeon
+adams_dungeon-20231225
 adams_puzzles_beta2
 adato1
 adayinhell1-2m
@@ -47,6 +51,7 @@ alienfight
 alienplanet
 alienshooter_demo
 ambush2beta
+amelia_map
 ani1
 annihilation
 antares2
@@ -103,6 +108,7 @@ bigroom_guy2
 black_haze
 blackfacility
 blackmesaarena
+blackmesaclassic
 blackmesaepf
 blackops
 blastcorpse1
@@ -157,6 +163,7 @@ cf_coop_a
 cf_cooplevel01
 cg_xv
 chancars
+chdeep0a
 chillride
 chubby_mess
 city_invasion
@@ -167,6 +174,7 @@ classic
 clockwork
 clonelab
 cloudsv2
+club2000
 co1a
 cocyx_box
 coldburn_2_r
@@ -209,6 +217,7 @@ crystal_mission_1
 cs_blitzwar
 cs_galleon-f
 cs_hokkaido
+ct1
 ctf_city
 ctf_warforts
 cyberneticmoon1g
@@ -259,6 +268,7 @@ dis_beta
 disco_boss
 dn3d1
 dn3d_r_1
+dogs-1
 dogs_v1
 doomfest_merged
 dread
@@ -283,6 +293,7 @@ ein1
 enc-1
 enc1
 energy
+enroute66
 epidauro-m1
 ertys_labyrint_v3
 escape_from_doomtown
@@ -313,6 +324,7 @@ extraction_a1
 extraction_a2
 extreme_uboa_t
 fail-mountain
+fail-mountain-20260531
 fallback_fire1
 fallback_ice1
 fallguys
@@ -322,6 +334,7 @@ farmhouse
 fate0
 feralhogs
 fescape
+ffl_a
 fi_c01_a1
 fi_lobby
 fight_map
@@ -344,6 +357,8 @@ g-ara1
 g-ara1-5m
 g-man
 garage
+gargboxing
+gargcity
 garghnt3
 garghouse2k
 garglab
@@ -385,6 +400,7 @@ halloween_hauntedhouse
 halloween_hospital
 hamsters
 haphazard
+hardcoregaming
 haunted1
 haunted1-2m
 hauntedsouls-a1
@@ -396,6 +412,7 @@ hauntedsouls_b1
 hauntedsouls_d1
 haywire
 hc2_a1
+he1
 headcrabs-maze
 headcrabs_maze
 headquarter
@@ -405,6 +422,7 @@ helebat3
 hellmouth
 hellmouth2
 hezusbday
+hi_c1_l1
 hiddencentral1_beta
 hide_in_grass_v2
 hideandrape_v2
@@ -465,8 +483,10 @@ infiltrate
 infiltration
 infinite_rift1
 infiniter_0
+infiniter_1
 inflight
 inhuman
+insane
 insertion
 instinct_1
 instinct_r_1
@@ -477,6 +497,7 @@ invasion
 invasion1_4m
 invasion2
 io_v1
+ioh1
 ioshockiron
 island
 iss-555-cargo
@@ -499,6 +520,7 @@ jurassicpark-pt1
 jurassicpark_pt1
 justcause01
 justcause1-3m
+justify_this
 justislave
 justmansion
 justmilitary
@@ -521,6 +543,7 @@ kr_mine_defence_v2
 kr_minecraft_1_v5
 krabban
 krypton1
+kw_gym
 kyper-kuutio1
 kyper_kuutio_1
 kz_climbers_b01
@@ -569,6 +592,7 @@ mechanic
 mechanic01
 mechanized
 megamonstermassacre
+mf1
 miib_clubhouse
 militarystrike_beta2
 minigolf3
@@ -584,6 +608,7 @@ mostwanted
 mountainpass
 murks
 music
+musicmaker
 mustard
 mw_insertion1
 mystic_radar_v1
@@ -669,6 +694,7 @@ po_intro
 po_merged01
 pointless_b2
 polar_rescue
+poolday
 portal_house_a1_r
 pouet
 pow_in_the_year_3910
@@ -738,6 +764,7 @@ reo1
 res
 rescue3
 residual_point_lobby
+resist1
 resistance
 ressya_no_tabi
 restriction01
@@ -760,6 +787,7 @@ rl00
 rl00a
 rl_mselect
 road_to_shinnen
+robloxhome
 rooftopwar
 royals_bdayroom
 rp_c00
@@ -799,6 +827,7 @@ sc_apprehension
 sc_arctic_escape
 sc_argentina-series
 sc_argentina_series
+sc_argentina_tiroteo
 sc_army4final21
 sc_assault
 sc_avp
@@ -812,7 +841,9 @@ sc_bunkerfight1a
 sc_buro_prologue_demo
 sc_caget
 sc_campfire
+sc_carpodacus_carnage
 sc_castle
+sc_castlerat_v1
 sc_castlevania
 sc_catalyst
 sc_christmas
@@ -852,6 +883,7 @@ sc_er
 sc_evermore
 sc_face
 sc_fatality
+sc_fathom24
 sc_fortress
 sc_fortress_r
 sc_frogger_final
@@ -889,6 +921,7 @@ sc_ksct_1-2fb
 sc_ksct_1a
 sc_lab
 sc_laundromat_v1b
+sc_laundromat_v2
 sc_lexm
 sc_lexmseries
 sc_liberation
@@ -901,6 +934,7 @@ sc_mako
 sc_marioland
 sc_massive_final_r2
 sc_mazing
+sc_minecraft_wild_ride
 sc_mirage1
 sc_mision73
 sc_monsterbase
@@ -971,6 +1005,7 @@ sc_tbreakdance1
 sc_tension
 sc_tetris1
 sc_tetrisfancv11
+sc_thc
 sc_titans
 sc_tkou
 sc_tl_build_puzzle_fft_final
@@ -984,6 +1019,7 @@ sc_tombofdeath_v12-1
 sc_toxic
 sc_toysoldiers
 sc_trapped1
+sc_tropical
 sc_tropical1
 sc_tropical1_final
 sc_tropical_final
@@ -1000,6 +1036,7 @@ sc_wilkes
 sc_worlds
 sc_worms
 sc_worms_series
+scary_dark_house
 schall_1
 schall_r_1
 sciguard2
@@ -1063,6 +1100,7 @@ snarkfest_beta1
 snd
 sneed_v3_summer
 sneed_v3_winter
+sniper4
 soc_trainracingv4
 sonic_the_hedgehog
 sonic_the_hedgehog2
@@ -1116,6 +1154,7 @@ svencoop1
 svencoopadventure
 svencooprpg
 sveney_christmas
+sventopia
 svor01
 svor01-2
 swamp_ha
@@ -1126,6 +1165,8 @@ t_horde22
 tacticalops
 tallbuilding
 target_neutralized
+tb_caves
+tb_city_of_vilcabamba
 tb_fun1f
 tb_fun1f_remake
 tb_fun2f
@@ -1202,6 +1243,7 @@ tox_surface-a
 tox_surface1
 tox_xen1
 tox_xen1-1
+trainhelp
 traintrouble
 triadrun
 trials_v1
@@ -1212,6 +1254,7 @@ tunnelvision_1
 tututu1
 tututu_v1
 twhltower_1
+txp1
 u1m0
 ua1
 ub_iseki
@@ -1232,6 +1275,7 @@ ulife_1
 ultra_monster_final
 undeath
 underground
+underground_shelter_v1
 underhalls
 underrain
 unholy
@@ -1281,6 +1325,7 @@ xaxi_v1
 xen_bossrush
 xenia
 xenomorphic
+xt-tower
 ya_control1-3m
 yabma
 yoshinoya
