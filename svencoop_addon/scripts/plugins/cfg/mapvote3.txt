@@ -18,7 +18,6 @@ a_jungle_1
 aa_protozoaire
 aa_protozoaire_suite
 abandoned
-abeyance
 accesspoint
 acopz
 acopz1-2m
@@ -85,7 +84,6 @@ bank_robbery_b2
 barnaclecomplex1g_r
 barnaclecorse
 baronofsnipe
-barrels
 base_attack1
 baseunderfire
 battlefield
@@ -373,7 +371,6 @@ gordonsci2
 gr_generate
 greendale_test09
 grunts
-grunts2
 grunts_party
 gruntwar
 gundam
@@ -382,7 +379,6 @@ gut_reaction1
 gv_mission1
 halflifuro
 halfquake
-halloween22f
 halloween_cemetery
 halloween_construction
 halloween_hauntedhouse
@@ -397,7 +393,6 @@ hauntedsouls-c1
 hauntedsouls-d1
 hauntedsouls_a1
 hauntedsouls_b1
-hauntedsouls_c1
 hauntedsouls_d1
 haywire
 hc2_a1
@@ -564,7 +559,6 @@ matmanizm
 matmanizm2
 matrix_lobby_tower
 matrix_tower
-mattm01
 mattm_a
 mboxv3
 mduty1
@@ -1040,7 +1034,6 @@ secretgarden
 secrethunt1
 secretlab_r
 secretlounge2016b7
-sectore
 sectore_1
 securityassault
 sektor_b_ma19
@@ -1101,7 +1094,6 @@ storaged
 stormit
 stranded
 strikeback1_beta3
-subsurface
 suicide_run
 supermonkeyball
 surf_redline
@@ -1204,7 +1196,6 @@ tower1-5
 tower6
 tower_v1
 towertraining_revised
-tox_office_beta
 tox_silo
 tox_slug1
 tox_surface-a
@@ -1286,7 +1277,6 @@ wreckhouse2
 wrigler
 wrongworld
 wtf_v2
-xaoc-novastation
 xaxi_v1
 xen_bossrush
 xenia
