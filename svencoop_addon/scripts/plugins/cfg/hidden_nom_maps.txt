@@ -109,7 +109,6 @@ caramel
 carnival
 casa_loquendo
 castlemap
-central_bunker
 cg1_sewer
 chan_toybox
 chenbox
@@ -355,7 +354,6 @@ jail1
 jailescape
 jeffmod
 junglewar
-justmansion
 k2notron
 kbd2a
 kbd2z
@@ -747,7 +745,6 @@ scape_laberint_fortress
 scisave
 scp173d
 scpx173
-scskillz2_v2
 seaside1b
 seaside1c
 secrethunt2_r
@@ -871,7 +868,6 @@ weaponrun2
 whaaa
 windowlicker
 wn_danger
-wreck
 wtf
 xaoc-novastation
 xaxi01
