@@ -89,6 +89,7 @@ bad_training
 bank_robbery_b2
 barnaclecomplex1g_r
 barnaclecorse
+barnacleflight_32_beta1
 baronofsnipe
 barrels
 base_attack1
@@ -203,6 +204,7 @@ craxnhax
 crazyteleport
 crazywalker_beta
 crimecity
+crimecity2
 crisis1
 crisis1-2m
 crisis2
@@ -475,6 +477,7 @@ hunted
 hunter
 huntthehaunt
 icestormx
+icu2
 incoming
 infested
 infiltracja-1
@@ -590,7 +593,9 @@ mechanic
 mechanic01
 mechanized
 megamonstermassacre
+mementocity
 mf1
+mg386_series
 miib_clubhouse
 militarystrike_beta2
 minigolf3
@@ -680,6 +685,7 @@ partyville
 peanyworld_r_1-1
 peanyworldbeta1-1
 ph_iv1
+phbeta1
 phobia
 phobos_iv
 phoenixwalkeralpha13
@@ -857,6 +863,7 @@ sc_dark_seekers_final
 sc_darknebula
 sc_dead_zone
 sc_dead_zone1-2m
+sc_deadthings2_txt
 sc_deadthings_txt
 sc_death_mission2_txt
 sc_death_mission_txt
@@ -1207,6 +1214,7 @@ the_room_demo
 thebackdoor
 thebase
 thecompound
+thegame2008
 theplane
 thevoid
 thewinery
