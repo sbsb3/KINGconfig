@@ -14,8 +14,6 @@
 7days_r_1
 7hourswar_ep1
 7hourswarep1-2m
-TD-1
-WRECK
 _player_sanctuary
 a_jungle_1
 aa_protozoaire
@@ -157,7 +155,6 @@ casino_vulcano_l1-3m
 cassault1
 catharsis
 cc_crossfire
-central_bunker
 central_bunker_r6
 cf_coop_a
 cf_cooplevel01
@@ -521,7 +518,6 @@ justcause01
 justcause1-3m
 justify_this
 justislave
-justmansion
 justmilitary
 justzombies
 k_thegame
@@ -1051,7 +1047,6 @@ scrm_secretcity6b6
 scrm_secretcitykeen_2_alpha
 scrm_secretcitykeen_beta
 scrm_secretcityx
-scskillz2_v2
 seaside1a
 seaside_a
 secretcity
