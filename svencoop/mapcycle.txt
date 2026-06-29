@@ -220,6 +220,8 @@ cs_hokkaido
 ct1
 ctf_city
 ctf_warforts
+cwc1
+cwcr1b
 cyberneticmoon1g
 d1_town_01
 d1_town_01s
