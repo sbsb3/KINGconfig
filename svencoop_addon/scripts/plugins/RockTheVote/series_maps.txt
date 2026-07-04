@@ -48,12 +48,14 @@ bh1_l1 bh1_l1_bonus bh1_l2
 bh1_l1-bm bh1_l2
 blackfacility blackfacility2
 blackmesaarena blackmesaarena2
+blackmesaclassic blackmesaclassic2 blackmesaclassic3 blackmesaclassic3b
 bm64a_v2 bm64b_v2 bm64c
 bootsquad1 bootsquad2 bootsquad3 bootsquad4 bootsquad5
 bootsquad_r_1 bootsquad_r_2
 boss_intro bounty thanksforplaying
 bravebrain1 bravebrain2 bravebrain3 bravebrain4 bravebrain5 bravebrain6 bravebrain7 bravebrain8 bravebrain9
-btx1 btx2 jan3
+btw1 btw2
+btx1 btx2 jan3 btx3 btx4 btx5 btx6
 c0h c1h
 c0h_v2 c1h
 c2ac4b c2ac4c c2ac5_v2
@@ -86,9 +88,10 @@ cryoorigins_0_intro_prealpha cryolife1-2_officialalpha
 cryorageorigins_r_1 cryorageorigins_r_2 cryorageorigins_r_3
 crystal crystal2
 crystal_mission_1 crystal_mission_2 crystal_mission_3 crystal_mission_4
+ct1 ct2
 cwc1 cwc2 cwc3 cwc4 cwc3a cwc4a
-d1_town_02b d1_town_02a d1_town_04 d1_town_05
-d2_prison_1 d2_prison_002
+d1_town_01 d1_town_01a d1_town_02 d1_town_03 d1_town_02b_disabled d1_town_02b d1_town_02a d1_town_04 d1_town_05
+d2_prison_1 d2_prison_002 d2_prison_003
 darkforest1 darkforest2
 darkstar zoology1 zoology2 zoology3 zoology4 zoology5 zoology5pt2 zoology6 zoology7 zoology8 zoology9 zoology10 zoology11 zoology12 zoology13 zoology12pt2 zoology14 zoology15 zoology16
 darkstar_merged01 darkstar_merged02 darkstar_merged03 darkstar_merged04 darkstar_merged05
@@ -107,6 +110,7 @@ diff_th_ep1_00 diff_th_ep1_01 diff_th_ep1_02 diff_th_ep1_03 diff_th_ep1_04 diff_
 dmc_lobby dmc_dm3 dcdm5 dmc_dm4 dmc_dm6 dmc_dm2 p_se_3 dmc_e1m2
 dn3d3_trans dn3d2 dn3d3 dn3d1 deathrowtrans dn3d3_sub dn3d4_1 dn3d4_2 dn3d4_3 dn3d5 dn3d5_2
 dn3d_r_1 dn3d_r_2 dn3d_r_3 dn3d_r_4 dn3d_r_5 dn3d_r_6
+dogs-1 dogs-2
 dogs1 dogs2 dogs3 dogs4 dogs6 dogs5
 doom2_ep1_b7 doom2_ep2_b7
 dy_accident1 dy_accident2 dy_hazard dy_uplink dy_dampen dy_dorms dy_signal dy_focus dy_lasers dy_fubar dy_outro dy_alien
@@ -165,8 +169,10 @@ hc2_b2 hc2b2 hc2_b3a hc2_b3b hc2_b3c hc2_b4 hc2b4 hc2c14 hc2_a1 hc2_s2 hc2_c1 hc
 hc2_b2a hc2_b2b hc2_b2c
 hc2_c10 hc2_c11 hc2_c12 hc2_b4 hc2c14 hc2_a1 hc2_s2 hc2_c1 hc2_b1 hc2_a2 hc2_s2a hc2_c3 hc2_b2a hc2b1 hc2a1 hc2_s2b hc2_b3 hc2_c4 hc2_b2b hc2c9 hc2_c5 hc2s2a hc2c8 hc2_b2c hc2c7 hc2_c6 hc2b4 hc2_c7 hc2_c8 hc2_c9
 hc2_s2b hc2_s2a hc2c9
+he1 he2 he3
 headcrabs_maze headcrabs_maze2 headcrabs_maze3 headcrabs_maze3b
 hellmouth hellmouth2
+hi_c1_l1 hi_c1_l2 hi_c1_l3
 hidoi_map1 hidoi_map2
 high-speed-cz1 high-speed-cz2 high-speed-cz3 high-speed-cz4
 high_speed high_speed_cz2 high_speed_cz3 high_speed_cz4 high_speed_cz5 high_speed_cz6
@@ -191,12 +197,14 @@ hr_dreamintro hr_dream2 hr_dream3 hr_dream4 hr_dream5 hr_dream6 hr_dream7 hr_dre
 htc_1 htc_2 htc_3
 htc_c01 htc_c02 htc_c03 hunt1 htc_c04 hunt3 htc_c05 choose_campaign_v4
 infested infested2
+infiltracja-1 infiltracja-2 infiltracja-3
 infiltracja1 infiltracja1bonus infiltracja2 infiltracja3 infiltracja4
 infiniter_0 infiniter_1 infiniter_2 rift infiniter_3 infiniter_4 infiniter_5 infiniter_6 infiniter_7 infiniter_8 infiniter_9 infiniter_10 infiniter_11
 infinite_rift1 infinite_rift2 infinite_rift3 infinite_rift4
 insertion insertion2 insertion3 insertion4 insertion5
 instinct_1 instinct_2 instinct_3 instinct_4 instinct_5 instinct_6 instinct_7 instinct_8 instinct_9 instinct_10
 instinct_r_1 instinct_r_2 instinct_r_3 instinct_r_4
+ioh1 ioh2 ioh3 ioh4 ioh5 ioh6 ioh7
 it1 it2 it3 it4 it5 it6 it7 it8 it9 it10 it11
 jailbreak jailbreak2 undeath
 jail_escape_1 jail_escape_2 jail_escape_3
@@ -214,6 +222,7 @@ keen_explore_r_1 keen_explore_r_2 keen_explore_r_3 ruoste_demo
 keksvencoop1 keksvencoop2
 kermit_escape_tfc_r2 kermit_escape_tfc_r2_pt2
 kh1 kh2 kh3 kh4 kh5 kh6fix2 kh7_preview
+krypton1 krypton2 krypton3 krypton4 krypton5 krypton6 krypton7
 kyper-kuutio1 kyper-kuutio2
 kyperkuutio_final kyperkuutio2_final kyperkuutio3_final
 kyper_kuutio_1 kyper_kuutio_2 kyper_kuutio_3
@@ -236,6 +245,7 @@ mattm15 mattm16
 mduty1 mduty2 mduty3 mduty4 mduty5 mduty6
 mechanic01 mechanic02 hldemo1 mechanic03
 mechanized mechanized2
+mf1 mf2 mf3 mf4
 mg386_osp1 mg386_osp2 mg386_osp3 mg386_osp4
 mistake_coop_a mistake_coop_b mistake_coop_c mistake_coop_d mistake_coop_e mistake_coop_f mistake_coop_g mistake_coop_h mistake_coop_i mistake_coop_j mistake_credits_k
 monster2 monster3 monster4 monster5 monster6 monster7 monster8
@@ -257,8 +267,8 @@ of_utbm1 of_utbm2 of_utbm3 of_utbm4 of_utbm5 of_utbm6
 og1a og1b og1c og2 og3
 om0 om1 om2 om3 om4 om5 om6 om7 om_out
 op4two1 op4two2
-opbt_bonus_1
-opbt_bonus_2
+opbt_bonus_1 skylined
+opbt_bonus_2 icestormx
 opbt_intro opbt_1 opbt_2 opbt_3 opbt_4 opbt_5 opbt_6 opbt_7 opbt_8 opbt_9 opbt_10 opbt_11 opbt_12 opbt_13 opbt_14 opbt_15 opbt_16 opbt_17 opbt_18 opbt_19
 operationalpha operationalpha2 opalphacredits
 operation_barbarossa operation_barbarossa_ch2
@@ -282,6 +292,7 @@ portal_house_a1_r portal_house_a1_climax_r portal_house_a2_r portal_house_a2_cli
 portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b
 po_c0m1 po_c0m2 po_c0m3 po_intro po_c1m1 po_c1m2 po_c1m3 po_c1m4 po_c2m1 po_c2m2 po_c2m3 po_c2m4 po_c2m5 po_c3m1 po_c3m2 po_c3m3 po_c3m4 po_c3m5 po_c3m6 po_c3m7 po_c3m8 po_c4m1 po_c4m2 po_c4m3 po_c4m4 po_c4m5 po_c5m1 po_outro pv_intro pv_c1m1 pv_c1m2 pv_c1m3 pv_c1m4 pv_c1m5 pv_c2m1 pv_c2m2 pv_c2m3 pv_c2m4 pv_c2m5 pv_c3m1 pv_c3m2 pv_outro
 po_merged00 po_merged01 po_merged02 po_merged03_1 po_merged03_2 po_merged03_3 po_merged03_4 po_merged03_5 po_merged03_6 po_merged04_1 po_merged04_2 po_merged04_3 po_merged05 pv_merged00 pv_merged01 pv_merged01_2 pv_merged01_3 pv_merged02 pv_merged02_2 pv_merged02_3 pv_merged02_4 pv_merged03 pv_merged_outro
+pql_1 pql_2 pql_3 pql_4 pql_4a pql_5 pql_6 pql_7 pql_8 sc_caget radix sc_verc_18
 preperation_y preperation_y2 preperation_y3
 prisoned prisoned-2 prisoned-3 prisoned-4 prisoned-last_resort
 prisoned1a prisoned1b prisoned2
@@ -310,6 +321,7 @@ redshift0_2019_alpha redshift1_2020_beta
 redshift0_livealpha redshift1_livealpha redshift2_livealpha redshift3_livealpha redshift4_livealpha redshift5_livealpha redshift6_livealpha redshift7_livealpha redshift8_livealpha
 redshift_intro_prerelease redshift0_prerelease redshift1_prerelease redshift2_2020_beta
 redswar_coop redswar_coop2
+resist1 resist2
 restriction01 restriction02 restriction03 restriction04 restriction05 restriction06 restriction07 restriction08 restriction09 restriction10
 retard super_retard
 rev2 rev3 rev4 rev5 rev6
@@ -349,6 +361,7 @@ sc_argentina2 sc_argentina3
 sc_argentina_series sc_argentina_series2 sc_argentina_series3 sc_argentina_series4 sc_argentina_series4b sc_argentina_series4c sc_argentina_series5 sc_argentina_series5b
 sc_avp sc_avp2 sc_avp3 sc_avp4 sc_avp5 sc_avp6 sc_avp7 sc_avp8 sc_avp9 sc_avp10_b2
 sc_avp1-4m sc_avp5-7m sc_avp8-9m sc_avp10_b2
+sc_carpodacus_carnage sc_carpodacus_carnage2 sc_carpodacus_carnage3 sc_carpodacus_carnage3_2 carpodacus_carnage3_1
 sc_dark_seekers_final sc_dark_seekers_2_final
 sc_deadthings_txt sc_deadthings2_txt sc_deadthings3_txt
 sc_dead_zone osprey
@@ -390,6 +403,7 @@ sc_tl_secrettask_new1a sc_tl_secrettask_1b sc_tl_secrettask_1c sc_tl_secrettask_
 sc_tod1 sc_tod2 sc_tod3 sc_tod4
 sc_tombofdeath_v12-1 sc_tombofdeath_v12-2 sc_tombofdeath_v12-3 sc_tombofdeath_v12-4 sc_tombofdeath_v12-5 sc_tombofdeath_v12-6
 sc_trapped1 sc_trapped2
+sc_tropical sc_tropical2 sc_tropical3
 sc_tropical1 sc_tropical2 sc_tropical3
 sc_tropical_final sc_tropical1_final sc_tropical2_final sc_tropical3_final
 sc_volt2 sc_volt2a
@@ -427,6 +441,7 @@ sven_rpg1 sven_rpg2
 svor01 svor00 svor02
 t0a0a t0a0b1 t0a0b2 t0a0c t0a0d
 targetneutralized1 targetneutralized2 targetneutralized3
+tb_caves tb_city_of_vilcabamba
 tb_fun1f tb_fun2f tb_fun3
 tb_mechanize tb_mech2 tb_mech3 tb_mech4 tb_mech5
 tb_mechanize1 tb_mechanize2
@@ -437,8 +452,10 @@ tb_msg1 tb_msg2 tb_msg3 tb_msg4 tb_mesa7gold
 tb_zombie13a tb_zombie13b
 tc tc2 tc3
 tc_1 tc_2
+td-1 td-2 td-3 td-4 td-5
 td0 td1 td2 td3 td4 td5 td6
 tele_down_b1 tele_down2
+thegame2008 thegame2008_2
 theylive1 theylive2 theylive3 theylive4 theylive5 theylive6 theylive7 theylive8
 theyrhungry theyrhungry2
 the_daikon_warfare1 the_daikon_warfare2 the_daikon_warfare3
@@ -464,6 +481,7 @@ tunnelvision_5 tunnelvision_6
 tuntis_blackmesadefence1 tuntis_blackmesadefence2
 tututu1 tututu2 tututu3 tututu4 tututu5 tututu6 tututu7 tututu8 tututu9 tututu10
 twhltower_1 twhltower_2
+txp1 txp2 txp3 txp4
 u1m0 u1m1 u1m2 u1m3
 ua1 ua2 ua3 ua4 ua5
 uboa_argentino uboa_argentino2 uboa_argentino3
