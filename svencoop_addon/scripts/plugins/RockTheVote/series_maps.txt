@@ -1,6 +1,5 @@
 -cryogeniclife_0a cryolife1a cryolife2a cryolife3a_fixalpha cryolife4a_alpha cryolife2021_5_alpha
 -nuclear_winter nwintro nw0 nw1 nw2 nw3 nw4 nw5 nw6 nw7 nw8 nw9 nw9a y10 nw10 nw11 nw12 nw13 nw14 nw15 nw16 nw17 nw18 nw19 nw20 nw21 nw22 nw23 nw24 nw25
--return_to_kalike rtkw1
 -return_to_kalike rtkw1 rtkw2 rtkw3 rtkw4 rtkw5 rtkw6 rtkw7 rtkw8 rtkw9 rtkw10 rtkw11 rtkw12 rtkw13 rtkw14
 101grnt1 101grnt2 101grnt3
 5waystodie 5waystodie2
@@ -13,7 +12,6 @@ adayinhelle1 adayinhellf1
 adventure_1 adventure_2 adventure_3
 aerodock1 aerodock2
 af1 af2
-af1_v1 af2_v1
 af1_v2 af2_v2
 afraidofmonsters_lobby aomdc_2training aomdc_2intro aomdc_1intro aomdc_1training aomdc_3intro aomdc_3training aom_training aom_intro aomdc_2nightmare aomdc_1nightmare aomdc_3nightmare aom_nightmare aomdc_2hospital aomdc_1hospital aomdc_3hospital aom_hospital aomdc_2hospital2 aomdc_1hospital2 aomdc_3hospital2 aom_hospital2 aomdc_2garage aomdc_1garage aomdc_3garage aom_garage aomdc_2backalley aomdc_1backalley aomdc_3backalley aom_backalley aomdc_2darkalley aomdc_1darkalley aomdc_3darkalley aom_darkalley aomdc_2sewer aomdc_1sewer aomdc_3sewer aom_city aomdc_2city aomdc_1city aomdc_3city aom_city2 aomdc_2city2 aomdc_1city2 aomdc_3city2 aom_city3 aomdc_2city3 aomdc_1cityx aomdc_3city3 aom_sick aomdc_2sick aomdc_1ridingcar aomdc_3city4 aom_sick2 aomdc_2sick2 aomdc_1carforest aomdc_3cityz aom_sick3 aomdc_2sorgarden aomdc_1afterforest aomdc_3sick aom_forest aomdc_2sorgarden2 aomdc_1angforest aomdc_3sick2 aom_forhouse aomdc_2arforest aomdc_1forhouse aomdc_3sorgarden aom_forest2 aomdc_2afterforest aomdc_1forest2 aomdc_3sorgarden2 aom_forest3 aomdc_2angforest aomdc_1forest3 aomdc_3arforest aom_heaven1 aomdc_2forhouse aomdc_1heaven1 aomdc_3afterforest aom_heaven2 aomdc_2forest2 aomdc_1heaven2 aomdc_4mother aomdc_3angforest aom_end aomdc_2forest3 aomdc_1end aomdc_4end aomdc_3forhouse aomdc_2heaven1 aomdc_3forest2 aomdc_2heaven2 aomdc_3forest3 aomdc_2end aomdc_3heaven1 aomdc_3heaven2 aomdc_3end
 afrikakorps1-3m afrikakorps-bonus
@@ -46,7 +44,6 @@ base_attack1 base_attack2
 ba_security_m ba_canal_m ba_yarda_m ba_yardb_m ba_xena_m ba_yard3 ba_xenb_m ba_teleport1 ba_yard4 ba_yard3b ba_power_m ba_xen1 ba_yard4a ba_yard3a ba_xen6 ba_xen2 ba_yard5 ba_yard2 ba_xen5 ba_teleport2 ba_xen3 ba_yard5a ba_yard1 ba_xen4 ba_power1 ba_outro ba_canal2 ba_power2 ba_canal3 ba_canal1b noba_canal2 ba_canal1 ba_elevator ba_maint ba_security2 ba_security1 ba_tram3 ba_tram2 ba_tram1
 ba_tram_mv2 ba_security_mv2 ba_canal_mv2 ba_yarda_mv2 ba_yardb_mv2 ba_xena_mv2 ba_yard3 ba_xenb_mv2 ba_teleport1 ba_yard4 ba_yard3b ba_power_mv2 ba_xen1 ba_yard4a ba_yard3a ba_xen6 ba_xen2 ba_yard5 ba_yard2 ba_xen5 ba_teleport2 ba_xen3 ba_yard5a ba_yard1 ba_xen4 ba_power1 ba_outro ba_canal2 ba_power2 ba_canal3 ba_canal1b noba_canal2 ba_canal1 ba_elevator ba_maint ba_security2 ba_security1 ba_tram3 ba_tram2 ba_tram1
 bc_c1a0c c1h
-bh1_l1 bh1_l1_bonus
 bh1_l1 bh1_l1_bonus bh1_l2
 bh1_l1-bm bh1_l2
 blackfacility blackfacility2
@@ -64,12 +61,10 @@ c2ac4b_v2 c2ac4c c2ac5_v2
 c2ac4c_v1 c2ac5
 cad_ctraining cad_intro_01
 cad_ctraining cad_merged00 cad_lab1 cad_merged01 cad_merged02 cad_merged03 cad_merged04 cad_merged05 cad_merged06 cad_merged07 cad_merged08 cad_merged09 cad_outro
-cad_merged00 cad_lab1 cad_merged01 cad_merged02 cad_merged03 cad_merged04 cad_merged05 cad_merged06 cad_merged07 cad_merged08 cad_merged09 cad_outro
 caged-1 caged-2 caged-3 caged_bonus caged_4
 caged_intro caged_01 caged_02 caged_0 caged_0com caged_1 caged_1b caged_03 caged_04 caged_1c caged_2 caged_end caged_3 caged_bonus caged_4
 case1 case2 case3 case4 case5 case6 case7
 case1 x1 case2 case3 case4 case5 case5a case6 case7 case8 x13 case9
-case8 case9
 casino_vulcano_l1 casino_vulcano_l2 casino_vulcano_l3 casino_vulcano_l4 casino_vulcano_l5 casino_vulcano_l6
 casino_vulcano_l1-3m casino_vulcano_l4-6m
 catharsis catharsis1a
@@ -141,7 +136,6 @@ extraction_a1 extraction_a2
 extreme_uboa_t bossrush bossrush_bonus
 fallback_fire1 fallback_fire2
 fallback_ice1 fallback_ice2 fallback_ice3
-faraon1 faraon2 faraon3
 faraon1 faraon2 faraon3 faraon4
 fate0 fate1 kaupunki canyon asepihauutta fate2 lumikohta lopullinenko fate3 battle outro avaruus katto
 fired01_mv1 fired02_mv1
@@ -156,15 +150,12 @@ gitfest1g gitfest2g gitfest3g gitfest4g gitfest5g gitfest6g
 gitfest2_1 gitfest3g gitfest4g gitfest5g gitfest6g
 glup_m1 glup_m2 glup_m3
 gut_reaction gr_generate gr_lab gr_tunnel3 gr_corentry gr_coremain gr_drainage gr_coremain2 gr_reactors gr_finale
-gut_reaction1 gut_reaction2
 gut_reaction1 gut_reaction2 gut_reaction3 gr_coremain
 gut_reaction1_v2 gut_reaction2_v2
 halfquake_coop hq2_1 hq2_2 hq2_trilogy hq2_3 hq3_1 hq2_train1 halfquake hq2_pointless hq2_fox hq3_0 hq2_4 halfquake2 hq2_5 halfquake3 hq2_7 halfquake4 hq2_8 halfquake5 hq2_9 halfquake6 hq2_10 halfquake7 hq2_11 halfquake8 hq2_12 halfquake9 hq2_13 halfquake10 hq2_14 halfquake11 hq2_15 halfquake12 hq2_16 halfquake13 hq2_17 hq2_22 hq2_23 hq2_24 hq2_25 hq2_26 hq2_27 hq2_28 hq2_29 hq2_30
 haunted1 haunted2
 hauntedsouls-a1 hauntedsouls-a2 hauntedsouls-b1 hauntedsouls-b2 hauntedsouls-b3 hauntedsouls-b4 hauntedsouls-b5 hauntedsouls-b6 hauntedsouls-b7 hauntedsouls-b7a hauntedsouls-b8 hauntedsouls-c1 hauntedsouls-c2 hauntedsouls-c3 hauntedsouls-c4 hauntedsouls-c5 hauntedsouls-c5a hauntedsouls-c6 hauntedsouls-d1 hauntedsouls-d2 hauntedsouls-d3 hauntedsouls-d4 hauntedsouls-d5 hauntedsouls-d6 hauntedsouls-d7 hauntedsouls-d8
-hauntedsouls_a1 hauntedsouls_a2
 hauntedsouls_a1 hauntedsouls_a2 hauntedsouls_b1 hauntedsouls_b2 hauntedsouls_b3 hauntedsouls_b4 hauntedsouls_b5 hauntedsouls_b6 hauntedsouls_b7 city5 hauntedsouls_b8 hauntedsouls_b9 hauntedsouls_b9a hauntedsouls_b10
-hauntedsouls_b1 hauntedsouls_b2 hauntedsouls_b3 hauntedsouls_b4 hauntedsouls_b5 hauntedsouls_b6 hauntedsouls_b7 city5 hauntedsouls_b8 hauntedsouls_b9 hauntedsouls_b9a hauntedsouls_b10
 hauntedsouls_c1 hauntedsouls_c2 hauntedsouls_c3 hauntedsouls_c4 hauntedsouls_c4a hauntedsouls_c5 hauntedsouls_c5a hauntedsouls_c6 hauntedsouls_c6_final
 hauntedsouls_d1 hauntedsouls_d2 hauntedsouls_d3 hauntedsouls_d4 hauntedsouls_d5 hauntedsouls_d6 hauntedsouls_d7 hauntedsouls_d8 hauntedsouls_d9 hauntedsouls_d10 hauntedsouls_d11 hauntedsouls_d12 hauntedsouls_d13
 hc1 hc2 hc3 hc4
@@ -185,14 +176,12 @@ hlm_mission01 hlm_mission00
 hlplu1 hlplu2 hlplu3 hlplu4 hlplu5 hlplu6 hlplu7 hlplu7b hlplu8 hlplu9
 hlplu_t hlplu_1 hlplu_2 hlplu_3 hlplu_4
 hl_c00 hl_c01_a1 hl_c01_a2 hl_c02_a1 hl_c02_a2 hl_c03 hl_c04 hl_c05_a1 hl_c05_a2 hl_c05_a3 hl_c06 hl_c07_a1 hl_c07_a2 hl_c08_a1 hl_c08_a2 hl_c09 hl_c10 hl_c11_a1 hl_c11_a2 hl_c11_a3 hl_c11_a4 hl_c11_a5 hl_c12 hl_c13_a1 hl_c13_a2 hl_c13_a3 hl_c13_a4 hl_c14 hl_c15 hl_c16_a1 hl_c16_a2 hl_c16_a3 hl_c16_a4 hl_c17 hl_c18
-hl_t00 t0a0c
 hl_t00 t0a0c t0a0d
 hl_u01 hl_u02 hl_u03 c3a1u4 hl_u04 hl_u05 hl_u06 hl_u07 hl_c13_a1
 hl_u12 hl_c13_a1 hl_u12_a1 hl_c13_a2 hl_u12_a2 hl_c13_a3 hl_u12_a3 hl_c13_a4 hl_u12_a4 c3a1u4 hl_c14 hl_u12_a5 hl_c15 hl_u12_a6 hl_c16_a1 hl_u12_a7 hl_c16_a2 hl_u12_a8 c3a1 c3a1u10 hl_c16_a3 hl_u12_a9 hl_c16_a4 c3a1u7 hl_u12_a10 hl_c17 hl_u12_a11 hl_c18 hl_u12_a12 hl_u12_a13
 hl_uw_c01_a2 hl_uw_c02_a1 hl_uw_c02_a2 hl_uw_c03 hl_uw_c04 hl_uw_c05_a1 hl_uw_c05_a2 hl_uw_c05_a3 hl_uw_c06 hl_uw_c07_a1 hl_uw_c07_a2 hl_uw_c08_a1 hl_uw_c08_a2 hl_uw_c09 hl_uw_c10 hl_uw_c11_a1 hl_uw_c11_a2 hl_uw_c11_a3 hl_uw_c11_a4 hl_uw_c11_a5 hl_uw_c12 hl_uw_c13_a1 hl_uw_c13_a2 hl_uw_c13_a3 hl_uw_c13_a4 hl_uw_c14 hl_uw_c15 hl_uw_c16_a1 hl_uw_c16_a2 hl_uw_c16_a3 hl_uw_c16_a4 hl_uw_c17 hl_uw_c18
 hostage2a hostage2b hostage2c
 hotline_1 hotline_2
-hotline_p0a0 hotline_p1a1 hotline_p1a2 hotline_p1a3
 hotline_p0a0 hotline_p1a1 hotline_p1a2 hotline_p1a3 hotline_p2a1 hotline_p2a2
 hq hq2
 hq2_6 hq2_5 hq2_7 hq2_8 hq2_9 hq2_10 hq2_11 hq2_12 hq2_13 hq2_14 hq2_15 hq2_16 hq2_17 hq2_22 hq2_23 hq2_24 hq2_25 hq2_26 hq2_27 hq2_28 hq2_29 hq2_30
@@ -265,7 +254,6 @@ of1a1_mv2 of1a2_mv2 of1a3_mv2 of2a1_mv2 of2a2_mv2 of3a1_mv2 of4a1_mv2 of4a2_mv2 
 of4a5 of4a4 of5a1 of5a2 of5a3 of5a4 of6a1 of6a2 of6a3 of6a4 of6a4b of6a5 of7a0
 of_utbm of_utbm_2 of_utbm_3 of_utbm_4 of_utbm_5 of_utbm_6 of_utbm_7 of_utbm_8 of_utbm_9
 of_utbm1 of_utbm2 of_utbm3 of_utbm4 of_utbm5 of_utbm6
-og1a og1b og1c og2
 og1a og1b og1c og2 og3
 om0 om1 om2 om3 om4 om5 om6 om7 om_out
 op4two1 op4two2
@@ -283,7 +271,6 @@ op_blackmesa1 op_blackmesa2 op_blackmesa3 op_blackmesa4 op_blackmesa5 op_blackme
 osd_intro osd_p01 osd_p02 osd_p03 osd_p04 osd_p05 osd_p06 osd_p07 osd_p08 osd_p09 osd_p10
 osd_r_1 osd_r_2 osd_r_3 osd_r_4
 oxycaves_beta9 oxysnowworld-1beta
-pagoda_intro pagoda_out pagoda_in pagoda_boss
 pagoda_intro pagoda_out pagoda_in pagoda_boss pagodaoutside pagoda_end pagoboss
 peanyworldbeta1-1 peanyworldbeta1-2
 peanyworld_r_1-1 peanyworld_r_1-2 peanyworld_r_2-1a peanyworld_r_2-1b peanyworld_r_2-2 resistance
@@ -291,7 +278,6 @@ pe_letonguesc_undergruond dreamstairs_v3
 ph_iv1 ph_iv2 ph_iv3 ph_iv4
 platoon1 platoon2 platoon3 platoon4 platoon5
 portal_house_a1 portal_house_a1_climax portal_house_a2 portal_house_a2_climax portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b portal_house_c portal_house_c_climax portal_house_d
-portal_house_a1_r portal_house_a1_climax_r portal_house_a2_r
 portal_house_a1_r portal_house_a1_climax_r portal_house_a2_r portal_house_a2_climax_r portal_house_a3_r portal_house_a3_climax_r portal_house_a4_r portal_house_a4_climax_r portal_house_b_r portal_house_c_r portal_house_c_climax_r portal_house_d_r
 portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b
 po_c0m1 po_c0m2 po_c0m3 po_intro po_c1m1 po_c1m2 po_c1m3 po_c1m4 po_c2m1 po_c2m2 po_c2m3 po_c2m4 po_c2m5 po_c3m1 po_c3m2 po_c3m3 po_c3m4 po_c3m5 po_c3m6 po_c3m7 po_c3m8 po_c4m1 po_c4m2 po_c4m3 po_c4m4 po_c4m5 po_c5m1 po_outro pv_intro pv_c1m1 pv_c1m2 pv_c1m3 pv_c1m4 pv_c1m5 pv_c2m1 pv_c2m2 pv_c2m3 pv_c2m4 pv_c2m5 pv_c3m1 pv_c3m2 pv_outro
@@ -332,7 +318,6 @@ revenge1 revenge2 revenge3 revenge4 revenge5 revenge6 revenge7 revenge8
 rev_hl_c18 rev_hl_c17 rev_hl_c16_a4 rev_hl_c16_a3 rev_hl_c16_a2 rev_hl_c16_a1 rev_hl_c15 rev_hl_c14 rev_hl_c13_a4 rev_hl_c13_a3 rev_hl_c13_a2 rev_hl_c13_a1 rev_hl_c12 rev_hl_c11_a5 rev_hl_c11_a4 rev_hl_c11_a3 rev_hl_c11_a2 rev_hl_c11_a1 rev_hl_c10 rev_hl_c09 rev_hl_c08_a2 rev_hl_c08_a1 rev_hl_c07_a2 rev_hl_c07_a1 rev_hl_c06 rev_hl_c05_a3 rev_hl_c05_a2 rev_hl_c05_a1 rev_hl_c04 rev_hl_c03 rev_hl_c02_a2 rev_hl_c02_a1 rev_hl_c01_a2 rev_hl_c01_a1 rev_hl_c00 rev_hl_t00 t0a0c t0a0d
 rev_th_ep3_07 they53 rev_th_ep3_06 rev_th_ep3_05 rev_th_ep3_04 rev_th_ep3_03 rev_th_ep3_02 rev_th_ep3_01 rev_th_ep3_00 rev_th_ep2_04 rev_th_ep2_03 rev_th_ep2_02 rev_th_ep2_01 rev_th_ep2_00 rev_th_ep1_05 rev_th_ep1_04 rev_th_ep1_03 rev_th_ep1_02 rev_th_ep1_01 rev_th_ep1_00
 rev_th_ep3_07 they53 rev_th_ep3_06 rev_th_ep3_05 rev_th_ep3_04 th_ep3_05 rev_th_ep3_03 th_ep3_06 rev_th_ep3_02 th_ep3_07 th_ep3_03 rev_th_ep3_01 th_ep3_04 rev_th_ep3_00 rev_th_ep2_04 rev_th_ep2_03 rev_th_ep2_02 th_ep2_03 rev_th_ep2_01 th_ep2_04 rev_th_ep2_00 th_ep3_00 rev_th_ep1_05 th_ep3_01 rev_th_ep1_04 th_ep3_02 rev_th_ep1_03 rev_th_ep1_02 rev_th_ep1_01
-rhapsody_b1_1 rhapsody_b2_1
 rhapsody_b1_1 rhapsody_b2_1 rhapsody3_beta1
 richard_boderbot richard_boderbot2 richard_boderbot3 richard_boderbot4 richard_boderbot5
 rk00 rl00r rl00t rl00u rl00s rl00a rl00 rl01 rl01a rl02 rl02w rl02y rl02o rl02p rl02l rl02n rl02d rl02c rl02e rl02t rl02c_2 rl02i rl02m rl02i_2 rl02h rl02k rl02j rl02r
@@ -359,7 +344,6 @@ schall_1 schall_2 schall_3 schall_4 schall_5 schall_6 schall_7 schall_8 schall_9
 schall_r_1 schall_r_2
 scrm_secretcity scrm_secretcity2 scrm_secretcity3 scrm_secretcity4beta scrm_secretcity5beta scrm_secretcityx scrm_secretcity6b6 scrm_secretcitykeen_beta scrm_secretcitykeen_2_alpha scrm_die scrm_fracb1 scrm_reddeath
 sc_activist-1 sc_activist-2
-sc_argentina-series sc_argentina-series2
 sc_argentina-series sc_argentina-series2 sc_argentina-series3 sc_argentina-series4
 sc_argentina2 sc_argentina3
 sc_argentina_series sc_argentina_series2 sc_argentina_series3 sc_argentina_series4 sc_argentina_series4b sc_argentina_series4c sc_argentina_series5 sc_argentina_series5b
@@ -417,7 +401,6 @@ secretcitykeen_2_alpha die
 secretcityx secretcity6b6 secretcitykeen_beta secretcitykeen_2_alpha die fracb1 reddeath
 secretcity_r_1 secretcity_r_2 secretcity_r_3 secretcity_r_4 secretcity_r_5 secretcity_r_5x secretcity_r_6 secretcity_r_k secretcity_r_k2 secretcity_r_die secretcity_r_frac secretcity_r_red
 sectore4prealpha redshift4_foam_alpha
-sectore_1 sectore_2 sectore_3
 sectore_1 sectore_2 sectore_3 sectore_4 sectore_5
 sectore_level_1 sectore_level_2
 semi_retardv3 full_retardv3
@@ -452,7 +435,6 @@ tb_mesagold tb_mesa2gold tb_mesa2bgold tb_mesa3gold tb_mesa4gold tb_mesa5gold tb
 tb_ms1 tb_ms2 tb_ms3 tb_ms4
 tb_msg1 tb_msg2 tb_msg3 tb_msg4 tb_mesa7gold
 tb_zombie13a tb_zombie13b
-tb_zombietown tb_zombielab tb_zombiesewer tb_zombiebase
 tc tc2 tc3
 tc_1 tc_2
 td0 td1 td2 td3 td4 td5 td6
@@ -493,7 +475,6 @@ usd_hl_c00 usd_hl_c01_a1 usd_hl_c01_a2 usd_hl_c02_a1 usd_hl_c02_a2 usd_hl_c03 us
 usd_of4a5 usd_of4a4 usd_of5a1 usd_of5a2 usd_of5a3 usd_of5a4 usd_of6a1 usd_of6a2 usd_of6a3 usd_of6a4 usd_of6a4b usd_of6a5 usd_of7a0
 usd_rev_hl_c18 usd_rev_hl_c17 usd_rev_hl_c16_a4 usd_rev_hl_c16_a3 usd_rev_hl_c16_a2 usd_rev_hl_c16_a1 usd_rev_hl_c15 usd_rev_hl_c14 usd_rev_hl_c13_a4 usd_rev_hl_c13_a3 usd_rev_hl_c13_a2 usd_rev_hl_c13_a1 usd_rev_hl_c12 usd_rev_hl_c11_a5 usd_rev_hl_c11_a4 usd_rev_hl_c11_a3 usd_rev_hl_c11_a2 usd_rev_hl_c11_a1 usd_rev_hl_c10 usd_rev_hl_c09 usd_rev_hl_c08_a2 usd_rev_hl_c08_a1 usd_rev_hl_c07_a2 usd_rev_hl_c07_a1 usd_rev_hl_c06 usd_rev_hl_c05_a3 usd_rev_hl_c05_a2 usd_rev_hl_c05_a1 usd_rev_hl_c04 usd_rev_hl_c03 usd_rev_hl_c02_a2 usd_rev_hl_c02_a1 usd_rev_hl_c01_a2 usd_rev_hl_c01_a1 usd_rev_hl_c00 usd_rev_hl_t00 usd_t0a0c
 usd_v2_of4a5 usd_v2_of4a4 usd_v2_of5a1 usd_v2_of5a2 usd_v2_of5a3 usd_v2_of5a4 usd_v2_of6a1 usd_v2_of6a2 usd_v2_of6a3 usd_v2_of6a4 usd_v2_of6a4b usd_v2_of6a5 usd_v2_of7a0
-verc_31 verc_30 verc_32 verc_13 verc_11 verc_15 verc_12 verc_6 verc_16 verc_17 verc_5 verc_18
 verc_31 verc_30 verc_32 verc_13 verc_11 verc_15 verc_12 verc_6 verc_16 verc_17 verc_5 verc_18 verc_19
 vis01 vis02 vis03 vis04 vis05 vis06 vis07 vis08 vis09 vis10
 walkthrough_egonhunt_1 walkthrough_egonhunt_2 walkthrough_egonhunt_3 walkthrough_egonhunt_4
