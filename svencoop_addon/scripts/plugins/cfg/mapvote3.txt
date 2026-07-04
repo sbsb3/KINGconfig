@@ -26,6 +26,7 @@ acopz
 acopz1-2m
 actual
 actual1-2m
+adamfun
 adams_dungeon
 adams_dungeon-20231225
 adams_puzzles_beta2
@@ -1166,6 +1167,7 @@ svencoop1
 svencoopadventure
 svencooprpg
 sveney_christmas
+svenskill_f
 sventopia
 svor01
 svor01-2
