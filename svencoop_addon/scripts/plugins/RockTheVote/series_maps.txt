@@ -138,6 +138,7 @@ exhale1platinum exhale2platinum exhale3platinum exhale4b exhale4a exhale5b exhal
 extension extended
 extraction_a1 extraction_a2
 extreme_uboa_t bossrush bossrush_bonus
+failure_1 failure_2 failure_3
 fallback_fire1 fallback_fire2
 fallback_ice1 fallback_ice2 fallback_ice3
 faraon1 faraon2 faraon3 faraon4
@@ -172,10 +173,10 @@ hc2_s2b hc2_s2a hc2c9
 he1 he2 he3
 headcrabs_maze headcrabs_maze2 headcrabs_maze3 headcrabs_maze3b
 hellmouth hellmouth2
-hi_c1_l1 hi_c1_l2 hi_c1_l3
 hidoi_map1 hidoi_map2
 high-speed-cz1 high-speed-cz2 high-speed-cz3 high-speed-cz4
 high_speed high_speed_cz2 high_speed_cz3 high_speed_cz4 high_speed_cz5 high_speed_cz6
+hi_c1_l1 hi_c1_l2 hi_c1_l3
 hlcomando_1 hlcomando_2 hlcomando_3 hlcomando_4 hlcomando_5
 hlhecuf_c01 hlhecuf_c03 hlhecuf_c02_a2 hlhecuf_c02_a1 hl_c05_a1 hl_c05_a2 hl_c05_a3 hl_c06 hl_c07_a1 hl_c07_a2 hl_c08_a1 hl_c08_a2 hl_c09 hl_c10 hl_c11_a1 hl_c11_a2 hl_c11_a3 hl_c11_a4 hl_c11_a5 hl_c12 hl_c13_a1 hl_c13_a2 hl_c13_a3 hl_c13_a4 hl_c14 hl_c15 hl_c16_a1 hl_c16_a2 hl_c16_a3 hl_c16_a4 hl_c17 hl_c18
 hlm_mission01 hlm_mission00
@@ -205,6 +206,7 @@ insertion insertion2 insertion3 insertion4 insertion5
 instinct_1 instinct_2 instinct_3 instinct_4 instinct_5 instinct_6 instinct_7 instinct_8 instinct_9 instinct_10
 instinct_r_1 instinct_r_2 instinct_r_3 instinct_r_4
 ioh1 ioh2 ioh3 ioh4 ioh5 ioh6 ioh7
+irreality1 irreality2
 it1 it2 it3 it4 it5 it6 it7 it8 it9 it10 it11
 jailbreak jailbreak2 undeath
 jail_escape_1 jail_escape_2 jail_escape_3
