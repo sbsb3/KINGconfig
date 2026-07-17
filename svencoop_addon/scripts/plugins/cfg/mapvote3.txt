@@ -331,6 +331,7 @@ extraction_a2
 extreme_uboa_t
 fail-mountain
 fail-mountain-20260531
+failure_1
 fallback_fire1
 fallback_ice1
 fallguys
@@ -506,6 +507,7 @@ invasion2
 io_v1
 ioh1
 ioshockiron
+irreality1
 island
 iss-555-cargo
 it1
@@ -703,6 +705,7 @@ platoon1
 po_intro
 po_merged00
 po_merged01
+pof0
 pointless_b2
 polar_rescue
 poolday
@@ -1214,6 +1217,7 @@ the-climb2
 the-climb3
 the_cemetery
 the_challenge
+the_crypt
 the_cube
 the_daikon_warfare1
 the_device
