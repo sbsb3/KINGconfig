@@ -807,6 +807,7 @@ ruoste_demo
 rust_mini
 rv_c2ac2
 sa13
+sa13_1
 sa13a
 sandstone
 santas_workshop
@@ -1137,6 +1138,7 @@ storagearea2
 storaged
 stormit
 stranded
+strange_house
 strikeback1_beta3
 subsurface
 suicide_run
