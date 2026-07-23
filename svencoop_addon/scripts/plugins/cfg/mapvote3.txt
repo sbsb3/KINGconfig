@@ -197,6 +197,7 @@ coop_kz_concretejungle
 cow_tycoon
 cr_wayne_v2
 cra_a4
+crablegs
 cracklife2_1
 cracklife2_2
 cracklife_c00
@@ -956,6 +957,7 @@ sc_mirage1
 sc_mision73
 sc_monsterbase
 sc_mountainre
+sc_mysteryhouse
 sc_nickcagetomb
 sc_night
 sc_npp
