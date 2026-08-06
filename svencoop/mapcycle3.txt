@@ -231,6 +231,7 @@ cyberneticmoon1g
 d1_town_01
 d1_town_01s
 d2_coast_10_xmas
+d2_prison_1
 damned_forest_demo
 damned_map1
 damnedforest_demo
