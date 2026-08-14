@@ -119,6 +119,7 @@ bm64a
 bm_geothermal
 bm_nightmare_a_final
 bmanbattles
+bmf_r_1
 bmsl_m02
 bmtcoop
 bootsquad1
@@ -299,6 +300,7 @@ enc-1
 enc1
 energy
 enroute66
+eod1
 epidauro-m1
 ertys_labyrint_v3
 escape_from_doomtown
@@ -1199,6 +1201,7 @@ tb_zombietown
 tbtest1
 tc_1
 td0
+te1
 temp-916
 th_after_event
 th_ep1_01

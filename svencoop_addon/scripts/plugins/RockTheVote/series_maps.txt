@@ -50,6 +50,7 @@ blackfacility blackfacility2
 blackmesaarena blackmesaarena2
 blackmesaclassic blackmesaclassic2 blackmesaclassic3 blackmesaclassic3b
 bm64a_v2 bm64b_v2 bm64c
+bmf_r_1 bmf_r_2 bmf_r_3
 bootsquad1 bootsquad2 bootsquad3 bootsquad4 bootsquad5
 bootsquad_r_1 bootsquad_r_2
 boss_intro bounty thanksforplaying
@@ -121,6 +122,7 @@ echoes00 echoes01 echoes01a echoes02 echoes03 echoes04 echoes05 echoes06 echoes0
 ein1 ein2 ein3
 enc-1 enc-2
 enc1 enc2 enc3
+eod1 eod2 eod3 eod4 eod5
 epidauro-m1 epidauro-m2
 escape_series escape_series_1a escape_series_2a escape_series_3a escape_series_1b escape_series_2b escape_series_3b escape_series_2c escape_series_3c escape_series_2d escape_series_3d escape_series_2e escape_series_3e
 escape_series_1a escape_series_1b escape_series_2a escape_series_2b escape_series_2c escape_series_2d escape_series_2e escape_series_3a escape_series_3b escape_series_3c escape_series_3d escape_series_3e
@@ -457,6 +459,7 @@ tc tc2 tc3
 tc_1 tc_2
 td-1 td-2 td-3 td-4 td-5
 td0 td1 td2 td3 td4 td5 td6
+te1 te2 te3 te4 te5
 tele_down_b1 tele_down2
 thegame2008 thegame2008_2
 theylive1 theylive2 theylive3 theylive4 theylive5 theylive6 theylive7 theylive8
