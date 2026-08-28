@@ -274,6 +274,7 @@ dis_beta
 disco_boss
 dn3d1
 dn3d_r_1
+dockbat
 dogs-1
 dogs_v1
 doomfest_merged
@@ -497,6 +498,7 @@ infiniter_1
 inflight
 inhuman
 insane
+insecure_00
 insertion
 instinct_1
 instinct_r_1
@@ -793,6 +795,7 @@ rhapsody_b1_1
 rhapsody_v1
 richard_boderbot
 richard_boderman
+richard_boderman_r
 rickshaw
 rk_00
 rl0
@@ -1007,6 +1010,7 @@ sc_stormit1
 sc_straightreloaded
 sc_strangers
 sc_strangers-1
+sc_streetrun
 sc_streetrunbeta2
 sc_subsurface
 sc_subwaytrain
