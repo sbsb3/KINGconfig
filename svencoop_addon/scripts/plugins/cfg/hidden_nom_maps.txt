@@ -8,14 +8,21 @@
 4man_kzbr_dani
 4player_race1_alpha
 5chan_beta7
+7hourswar_ep1
 911b
 911part1_a1
 ___portals
 _server_start
 abelkerky_b1
 abeyance
+acopz
 actofbingus
+actual
+adayinhelle1
+afrikakorps1
 airlock
+airport_2_beta
+airport_beta
 albulena
 aliensexfiendz
 alleyrush
@@ -38,6 +45,8 @@ arena_synthwave
 arena_wildlife_annex_modded
 arenas
 arghpushers
+ascii_art
+ascii_art2
 assault
 assaultmesa2-2
 azac
@@ -92,6 +101,7 @@ bmsl_m01
 bombs
 boredgasmsurface_1b
 boredgoal_beta
+borgcube
 borgcube2
 botamungus2
 box_jump
@@ -105,9 +115,12 @@ build
 buildingx1
 bunnyrace_beta2
 c2ac1
+cad_ctraining
+cad_lab1
 caramel
 carnival
 casa_loquendo
+casino_vulcano_l1
 castlemap
 cg1_sewer
 chan_toybox
@@ -132,6 +145,7 @@ comover_obi
 conando
 contact_demo
 controlroom_abandoned_a3
+coop1
 coop2
 coop3
 corruptworld_01
@@ -141,6 +155,8 @@ crack_crossfire
 crazylabyrinth
 crazymaze
 crazywalkerb5
+crisis1
+crisis2
 crossfire_dark
 crusader5
 crusades4
@@ -186,7 +202,10 @@ cyborgremaster
 dangerous_rooms_final
 dangerzone
 darkcity
+darkforest1
 darkmoon1d
+darkvoyage
+darkvoyagept2
 dead
 deathrun_crash_egypt
 deathrun_droide3_svencoop
@@ -217,6 +236,7 @@ echoes03d
 ectopit
 ectopitaaa
 em1n
+enc1
 end
 eper5
 epidauro_map
@@ -236,6 +256,7 @@ etc0e
 etf
 everwar
 evolvemap
+execommand
 exhale_v1
 extreme_uboa
 f
@@ -272,6 +293,7 @@ fun_fun_fun
 funland
 funny_apple_hunt
 fzerogx_a1
+g-ara1
 gahhhhh
 garg_1
 garg_and_ickyhunt
@@ -305,6 +327,7 @@ halloween22f
 halloween__blackwoods
 happyvalley_2nd_lt
 harvest
+haunted1
 hauntedsouls_c1
 hazmat
 hc2_c2
@@ -319,8 +342,10 @@ hh
 hhbtow
 hide_in_grass
 hideandrape
+hidoi_map1
 hivepush
 hl_c13_and_a_half
+hlm_mission01
 hlm_mission02
 hlplut1
 hockey-life
@@ -342,6 +367,7 @@ indojapan
 infested2
 infested2_oopsie
 infested_oopsie
+infiltracja1
 infiltration_beta
 insanity
 insp_a1
@@ -351,9 +377,11 @@ isb6
 isisbattle
 island2
 jail1
+jailbreak
 jailescape
 jeffmod
 junglewar
+justcause01
 k2notron
 kbd2a
 kbd2z
@@ -550,6 +578,7 @@ normall_extrastroke2
 normall_merged
 nr1
 nv_natack
+nw1
 nw18_orig
 nwmerged1
 oasis_v3
@@ -678,10 +707,12 @@ sc_argentina_fullvias2021
 sc_argentina_juegos
 sc_attack
 sc_automap_beta2
+sc_avp
 sc_bunker-escape
 sc_coltshouse
 sc_danmaku
 sc_datahunt
+sc_dead_zone
 sc_defenceeee6
 sc_defend_base3a
 sc_desert
@@ -691,6 +722,7 @@ sc_easymap
 sc_escapethetown
 sc_fear
 sc_greysnake2
+sc_habitat
 sc_hidef
 sc_hns_smalltown
 sc_inferno
@@ -720,6 +752,7 @@ sc_slumber_b1
 sc_snarks
 sc_sniperwar_xmas
 sc_starbattle
+sc_strangers
 sc_streetrunbeta1
 sc_swars_installation1
 sc_tbmaze5
@@ -778,6 +811,7 @@ sporetech
 sprayart_beta1
 sprt_penis_island
 squirtloads
+stackdeathpb1
 starcraft
 starship_troopers_minigame_b1
 starshiptroopersbeta1
@@ -807,6 +841,7 @@ synth
 systemshock2_earth2
 t0a0
 tangpuiceroom
+td0
 team_boss_test
 test_mirror
 test_puzzle
@@ -853,6 +888,8 @@ twhltower_tjb
 twlz_dorms_fix_2
 twlzraecingalpha1
 tzh_keenlobby
+uboa_argentino
+uboa_argentino2
 uboabrasil
 underground_nih
 underground_wg

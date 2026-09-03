@@ -1,14 +1,14 @@
 Config root: /home/svenserver/dev/KINGconfig
 Map dirs: ['/home/svenserver/serverfiles/svencoop_addon/maps', '/home/svenserver/serverfiles/svencoop/maps', '/home/svenserver/serverfiles/svencoop_downloads/maps']
-Mode: DRY-RUN
+Mode: APPLY
 Entity source: direct entity lump (seek+read)
 Scan scope: FAST (merge candidates only)
 Found 5597 BSPs (scanning 187)
   scanning 1/187: 5waystodie1-2  scanning 187/187: ze_letonguesc_labv3_1-2m
-Merged map analysis — 2026-09-03T13:35:51
+Merged map analysis — 2026-09-03T13:42:48
 Config root: /home/svenserver/dev/KINGconfig
 BSPs scanned: 187 / 5597 (errors: 0)
-Mode: DRY-RUN
+Mode: APPLY
 
 ========================================================================
 MERGED MAPS DETECTED (113)
@@ -665,7 +665,7 @@ FIRST MERGED MAPS NOT IN mapvote/mapvote3 (2) — add these only
 Report written to /home/svenserver/dev/KINGconfig/analyze_merged_maps_report.txt
 
 ========================================================================
-LIST FILE CHANGES (dry-run preview)
+LIST FILE CHANGES
 ========================================================================
   mapvote: remove 37 (+37 new → hidden, 0 already hidden)
       - 7hourswar_ep1
@@ -731,7 +731,7 @@ LIST FILE CHANGES (dry-run preview)
       - nw1
       - sc_avp
       ... +7 more
-  mapcycle: remove 36 (+36 new → hidden, 0 already hidden)
+  mapcycle: remove 36 (+0 new → hidden, 36 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -763,7 +763,7 @@ LIST FILE CHANGES (dry-run preview)
       - sc_avp
       - sc_dead_zone
       ... +6 more
-  mapcycle3: remove 36 (+36 new → hidden3, 0 already hidden)
+  mapcycle3: remove 36 (+0 new → hidden3, 36 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -796,4 +796,4 @@ LIST FILE CHANGES (dry-run preview)
       - sc_dead_zone
       ... +6 more
 
-Dry-run only. Re-run with --apply to edit the staging list files.
+Applied. Review git diff in KINGconfig, then deploy the list files to the server.

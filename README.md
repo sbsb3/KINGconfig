@@ -21,4 +21,9 @@ sudo bash setup_swap.sh
 
 # Apply list edits after reviewing analyze_merged_maps_report.txt
 ./analyze_merged_maps.py --fast --apply
+
+# Deploy mapcycle / mapvote / hidden_nom_maps (both server variants) to serverfiles
+./deploy_maps.sh
+# Optional: also rsync those lists to the second server
+# SYNC_REMOTE=1 ./deploy_maps.sh
 ```
