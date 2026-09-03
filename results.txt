@@ -3,15 +3,15 @@ Map dirs: ['/home/svenserver/serverfiles/svencoop_addon/maps', '/home/svenserver
 Mode: DRY-RUN
 Entity source: direct entity lump (seek+read)
 Scan scope: FAST (merge candidates only)
-Found 5597 BSPs (scanning 133)
-  scanning 1/133: 5waystodie1-2  scanning 133/133: ze_letonguesc_labv3_1-2m
-Merged map analysis — 2026-09-03T13:25:33
+Found 5597 BSPs (scanning 187)
+  scanning 1/187: 5waystodie1-2  scanning 187/187: ze_letonguesc_labv3_1-2m
+Merged map analysis — 2026-09-03T13:35:51
 Config root: /home/svenserver/dev/KINGconfig
-BSPs scanned: 133 / 5597 (errors: 0)
+BSPs scanned: 187 / 5597 (errors: 0)
 Mode: DRY-RUN
 
 ========================================================================
-MERGED MAPS DETECTED (100)
+MERGED MAPS DETECTED (113)
 ========================================================================
   5waystodie1-2                            reason=name-range+evidence method=override   markers=-                    parts: 5waystodie 5waystodie2
   7hourswarep1-2m                          reason=name-range-m       method=override   markers=NewBSPGuy            parts: 7hourswar_ep1
@@ -64,12 +64,17 @@ MERGED MAPS DETECTED (100)
   darkstar_merged05                        reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   darkvoyagep1-2m                          reason=name-range-m       method=override   markers=-                    parts: darkvoyage darkvoyagept2
   doomfest_merged                          reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
+  enc-1                                    reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: enc1 enc2
+  enc-2                                    reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: enc3
   execommand1-3m                           reason=name-range-m       method=range-m    markers=-                    parts: execommand execommand2 execommand3
   g-ara1-5m                                reason=name-range-m       method=range-m    markers=-                    parts: g-ara1 g-ara2 g-ara3 g-ara4 g-ara5
   haunted1-2m                              reason=name-range-m       method=range-m    markers=-                    parts: haunted1 haunted2
   hidoi_map1-2                             reason=name-range+evidence method=override   markers=-                    parts: hidoi_map1 hidoi_map2
   hlm_mission1-2                           reason=name-range+evidence method=override   markers=NewBSPGuy            parts: hlm_mission01 hlm_mission02
   hot1-2m                                  reason=name-range-m       method=range-m    markers=-                    parts: hot hot2
+  infiltracja-1                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja1 infiltracja2
+  infiltracja-2                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja3
+  infiltracja-3                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja4
   jailbreak1-2                             reason=name-range+evidence method=override   markers=-                    parts: jailbreak jailbreak2
   justcause1-3m                            reason=name-range-m       method=range-m    markers=classname#1          parts: justcause01 justcause02 justcause03
   normall_merged                           reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
@@ -104,18 +109,26 @@ MERGED MAPS DETECTED (100)
   pv_merged02_4                            reason=name-merged        method=none       markers=NewBSPGuy            parts: (no parts resolved)
   pv_merged03                              reason=name-merged        method=none       markers=NewBSPGuy            parts: (no parts resolved)
   pv_merged_outro                          reason=name-merged        method=none       markers=NewBSPGuy            parts: (no parts resolved)
+  sc_activist-2                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: sc_activist3
   sc_avp1-4m                               reason=name-range-m       method=range-m    markers=-                    parts: sc_avp sc_avp2 sc_avp3 sc_avp4
   sc_avp5-7m                               reason=name-range-m       method=range-m    markers=-                    parts: sc_avp5 sc_avp6 sc_avp7
   sc_avp8-9m                               reason=name-range-m       method=range-m    markers=-                    parts: sc_avp8 sc_avp9
   sc_dead_zone1-2m                         reason=name-range-m       method=range-m    markers=NewBSPGuy,classname#1 parts: sc_dead_zone sc_dead_zone2
   sc_habitat1-2m                           reason=name-range-m       method=range-m    markers=NewBSPGuy,classname#1 parts: sc_habitat sc_habitat2
+  sc_strangers-1                           reason=name-hyphen-num    method=override   markers=NewBSPGuy            parts: sc_strangers sc_strangers2
+  sc_strangers-2                           reason=name-hyphen-num    method=override   markers=NewBSPGuy            parts: sc_strangers3 sc_strangers4
   stackdeathpb1-2m                         reason=name-range-m       method=range-m    markers=NewBSPGuy            parts: stackdeathpb1 stackdeathpb2
+  td-1                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: td0 td1
+  td-2                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: td2 td3
+  td-3                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td4
+  td-4                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td5
+  td-5                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td6
   uboa_argentino1-2                        reason=name-range+evidence method=override   markers=-                    parts: uboa_argentino uboa_argentino2
   ya_control1-3m                           reason=name-range-m       method=range-m    markers=-                    parts: (no parts resolved)
   ze_letonguesc_labv3_1-2m                 reason=name-range-m       method=override   markers=NewBSPGuy            parts: ze_letonguesc_lab_v3 ze_letonguesc_lab2_v3
 
 ========================================================================
-UNMERGED SERIES WITH NO MERGED VERSION (486)
+UNMERGED SERIES WITH NO MERGED VERSION (479)
 ========================================================================
   101grnt1 101grnt2 101grnt3
   7days_r_1 7days_r_2 halloween22f
@@ -219,10 +232,9 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   e0a e0b e1a e1c e1d e1e e1f e1g e1h e2a e2b e1j
   echoes-0 echoes-1 echoes-2 echoes-3 echoes-4 echoes-5 echoes-6 echoes-7 echoes-8 echoes-9 echoes-10 echoes-11 echoes-12 echoes-13 echoes-14
   echoes-0 echoes-1 echoes-2 echoes-3 echoes-4 echoes-5 echoes-6_1 echoes-7 echoes-8 echoes-9 echoes-10 echoes-11 echoes-12 echoes-13 echoes-14
+  echoes-6 echoes-7 echoes-8 echoes-9 echoes-10 echoes-11 echoes-12 echoes-13 echoes-14
   echoes00 echoes01 echoes01a echoes02 echoes03 echoes04 echoes05 echoes06 echoes07 echoes08 echoes09 echoes09a echoes09b echoes10 echoes11 echoes12 echoes13 echoes14 echoes14b echoes15 echoes16 echoes17 echoes18 echoes19 echoes20 echoes21 echoes22 echoes23 echoes24
   ein1 ein2 ein3
-  enc-1 enc-2
-  enc1 enc2 enc3
   eod1 eod2 eod3 eod4 eod5
   epidauro-m1 epidauro-m2
   es_01 es_02 es_03
@@ -296,8 +308,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   htc_1 htc_2 htc_3
   htc_c01 htc_c02 htc_c03 hunt1 htc_c04 hunt3 htc_c05 choose_campaign_v4
   infested infested2
-  infiltracja-1 infiltracja-2 infiltracja-3
-  infiltracja1 infiltracja1bonus infiltracja2 infiltracja3 infiltracja4
   infinite_rift1 infinite_rift2 infinite_rift3 infinite_rift4
   infiniter_0 infiniter_1 infiniter_2 rift infiniter_3 infiniter_4 infiniter_5 infiniter_6 infiniter_7 infiniter_8 infiniter_9 infiniter_10 infiniter_11
   insecure_00 insecure_01 insecure_02 insecure_02bc insecure_03 insecure_03bc insecure_04 insecure_04a insecure_04b insecure_04d insecure_04f insecure_04c insecure_04e insecure_05 insecure_05a insecure_05b insecure_05c insecure_05d insecure_05e insecure_05f insecure_05g insecure_05h insecure_05i insecure_06 insecure_06a insecure_06b insecure_06c insecure_06d insecure_06e insecure_06f insecure_07
@@ -396,6 +406,7 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   pql_1 pql_2 pql_3 pql_4 pql_4a pql_5 pql_6 pql_7 pql_8 sc_caget radix sc_verc_18
   preperation_y preperation_y2 preperation_y3
   prisoned prisoned-2 prisoned-3 prisoned-4 prisoned-last_resort
+  prisoned-2 prisoned-3 prisoned-4 prisoned-last_resort
   prisoned1a prisoned1b prisoned2
   prisoned2a prisoned2b
   prisonriot_erosion stadium3
@@ -454,7 +465,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   santas_workshop santas_workshop_pt2
   savesven savesven2 savesven3 savesven4
   saving_the_2nd_amendment saving_the_2nd_amendment2 saving_the_2nd_amendment3 saving_the_2nd_amendment4 saving_the_2nd_amendment5 saving_the_2nd_amendment6 saving_the_2nd_amendment7 saving_the_2nd_amendment8 saving_the_2nd_amendment9 saving_the_2nd_amendment10 saving_the_2nd_amendment11 saving_the_2nd_amendment12 saving_the_2nd_amendment13 saving_the_2nd_amendment14 saving_the_2nd_amendment15 saving_the_2nd_amendment16 saving_the_2nd_amendment17 saving_the_2nd_amendment18 saving_the_2nd_amendment19 saving_the_2nd_amendment20 saving_the_2nd_amendment21
-  sc_activist-1 sc_activist-2
   sc_argentina-series sc_argentina-series2 sc_argentina-series3 sc_argentina-series4
   sc_argentina2 sc_argentina3
   sc_argentina_series sc_argentina_series2 sc_argentina_series3 sc_argentina_series4 sc_argentina_series4b sc_argentina_series4c sc_argentina_series5 sc_argentina_series5b
@@ -484,8 +494,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   sc_shogo_b sc_shogo_c
   sc_snowadventure sc_snowadventure_2
   sc_stormit1 sc_stormit2
-  sc_strangers sc_strangers2 sc_strangers3 sc_strangers4
-  sc_strangers-1 sc_strangers-2
   sc_tbreakdance1 sc_tbreakdance2
   sc_tetris1 sc_tetris2 sc_tetris3 sc_tetris4 sc_tetris5 sc_tetris6
   sc_tl_rpg_v1_final_v3 sc_tl_rpg_v1
@@ -546,8 +554,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   tb_zombie13a tb_zombie13b
   tc tc2 tc3
   tc_1 tc_2
-  td-1 td-2 td-3 td-4 td-5
-  td0 td1 td2 td3 td4 td5 td6
   te1 te2 te3 te4 te5
   tele_down_b1 tele_down2
   th_ep1_00 th_ep1_01 th_ep1_02 th_ep1_03 th_ep1_04 th_ep1_05 th_ep2_00 th_ep2_01 th_ep2_02 th_ep2_03 th_ep2_04 th_ep3_00 th_ep3_01 th_ep3_02 th_ep3_03 th_ep3_04 th_ep3_05 th_ep3_06 th_ep3_07
@@ -605,7 +611,7 @@ UNMERGED SERIES WITH NO MERGED VERSION (486)
   zubben_intro zubben_1 zubben_2
 
 ========================================================================
-SUPERSEDED UNMERGED MAPS IN mapvote/mapcycle → move to hidden (33)
+SUPERSEDED UNMERGED MAPS IN mapvote/mapcycle → move to hidden (37)
 ========================================================================
   7hourswar_ep1                            superseded_by=7hourswarep1-2m                currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   acopz                                    superseded_by=acopz1-2m                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
@@ -626,18 +632,22 @@ SUPERSEDED UNMERGED MAPS IN mapvote/mapcycle → move to hidden (33)
   darkforest1                              superseded_by=darkforest1-2m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   darkvoyage                               superseded_by=darkvoyagep1-2m                currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   darkvoyagept2                            superseded_by=darkvoyagep1-2m                currently_in=mapvote,mapvote3
+  enc1                                     superseded_by=enc-1                          currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   execommand                               superseded_by=execommand1-3m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   g-ara1                                   superseded_by=g-ara1-5m                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   haunted1                                 superseded_by=haunted1-2m                    currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   hidoi_map1                               superseded_by=hidoi_map1-2                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   hlm_mission01                            superseded_by=hlm_mission1-2                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  infiltracja1                             superseded_by=infiltracja-1                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   jailbreak                                superseded_by=jailbreak1-2                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   justcause01                              superseded_by=justcause1-3m                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   nw1                                      superseded_by=nwmerged0                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   sc_avp                                   superseded_by=sc_avp1-4m                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   sc_dead_zone                             superseded_by=sc_dead_zone1-2m               currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   sc_habitat                               superseded_by=sc_habitat1-2m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  sc_strangers                             superseded_by=sc_strangers-1                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   stackdeathpb1                            superseded_by=stackdeathpb1-2m               currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  td0                                      superseded_by=td-1                           currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   uboa_argentino                           superseded_by=uboa_argentino1-2              currently_in=mapvote,mapvote3,mapcycle,mapcycle3
   uboa_argentino2                          superseded_by=uboa_argentino1-2              currently_in=mapvote,mapvote3,mapcycle,mapcycle3
 
@@ -657,7 +667,7 @@ Report written to /home/svenserver/dev/KINGconfig/analyze_merged_maps_report.txt
 ========================================================================
 LIST FILE CHANGES (dry-run preview)
 ========================================================================
-  mapvote: remove 33 (+33 new → hidden, 0 already hidden)
+  mapvote: remove 37 (+37 new → hidden, 0 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -677,19 +687,19 @@ LIST FILE CHANGES (dry-run preview)
       - darkforest1
       - darkvoyage
       - darkvoyagept2
+      - enc1
       - execommand
       - g-ara1
       - haunted1
       - hidoi_map1
       - hlm_mission01
+      - infiltracja1
       - jailbreak
       - justcause01
       - nw1
       - sc_avp
-      - sc_dead_zone
-      - sc_habitat
-      ... +3 more
-  mapvote3: remove 33 (+33 new → hidden3, 0 already hidden)
+      ... +7 more
+  mapvote3: remove 37 (+37 new → hidden3, 0 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -709,19 +719,19 @@ LIST FILE CHANGES (dry-run preview)
       - darkforest1
       - darkvoyage
       - darkvoyagept2
+      - enc1
       - execommand
       - g-ara1
       - haunted1
       - hidoi_map1
       - hlm_mission01
+      - infiltracja1
       - jailbreak
       - justcause01
       - nw1
       - sc_avp
-      - sc_dead_zone
-      - sc_habitat
-      ... +3 more
-  mapcycle: remove 32 (+32 new → hidden, 0 already hidden)
+      ... +7 more
+  mapcycle: remove 36 (+36 new → hidden, 0 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -740,20 +750,20 @@ LIST FILE CHANGES (dry-run preview)
       - crisis2
       - darkforest1
       - darkvoyage
+      - enc1
       - execommand
       - g-ara1
       - haunted1
       - hidoi_map1
       - hlm_mission01
+      - infiltracja1
       - jailbreak
       - justcause01
       - nw1
       - sc_avp
       - sc_dead_zone
-      - sc_habitat
-      - stackdeathpb1
-      ... +2 more
-  mapcycle3: remove 32 (+32 new → hidden3, 0 already hidden)
+      ... +6 more
+  mapcycle3: remove 36 (+36 new → hidden3, 0 already hidden)
       - 7hourswar_ep1
       - acopz
       - actual
@@ -772,18 +782,18 @@ LIST FILE CHANGES (dry-run preview)
       - crisis2
       - darkforest1
       - darkvoyage
+      - enc1
       - execommand
       - g-ara1
       - haunted1
       - hidoi_map1
       - hlm_mission01
+      - infiltracja1
       - jailbreak
       - justcause01
       - nw1
       - sc_avp
       - sc_dead_zone
-      - sc_habitat
-      - stackdeathpb1
-      ... +2 more
+      ... +6 more
 
 Dry-run only. Re-run with --apply to edit the staging list files.

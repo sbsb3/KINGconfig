@@ -64,6 +64,9 @@ LIST_FILES = {
 RE_RANGE_M = re.compile(r"^(?P<stem>.+?)(?P<start>\d+)-(?P<end>\d+)m$", re.I)
 RE_RANGE = re.compile(r"^(?P<stem>.+?)(?P<start>\d+)-(?P<end>\d+)$", re.I)
 RE_MERGED = re.compile(r"^(?P<stem>.+?)_?merged(?P<suffix>.*)$", re.I)
+# Alternate merge pack naming: sc_strangers-1, enc-2 (stem must not end in a digit,
+# so tox_surface5-1 / echoes-style chapter names are not matched here by stem rule alone).
+RE_HYPHEN_NUM = re.compile(r"^(?P<stem>.+)-(?P<idx>\d+)$", re.I)
 
 # Names that look like N-M but are chapter/part labels, not merges.
 RANGE_FALSE_POSITIVES = {
@@ -114,6 +117,9 @@ PART_OVERRIDES: Dict[str, List[str]] = {
     "hlm_mission1-2": ["hlm_mission01", "hlm_mission02"],
     "jailbreak1-2": ["jailbreak", "jailbreak2"],
     "uboa_argentino1-2": ["uboa_argentino", "uboa_argentino2"],
+    # Hyphen-index merge packs (NewBSPGuy) replacing the classic split series.
+    "sc_strangers-1": ["sc_strangers", "sc_strangers2"],
+    "sc_strangers-2": ["sc_strangers3", "sc_strangers4"],
     # Curated: merged nuclear-winter chain supersedes the classic split maps.
     "nwmerged0": [
         "nwintro", "nw0", "nw1", "nw2", "nw3", "nw4", "nw5", "nw6", "nw7",
@@ -351,15 +357,119 @@ def write_map_list(path: Path, maps: Iterable[str]) -> None:
 # Merge detection + part resolution
 # ---------------------------------------------------------------------------
 
+def hyphen_stem_idx(name: str) -> Optional[Tuple[str, int]]:
+    """Return (stem, idx) for names like sc_strangers-1; None if not applicable."""
+    n = name.lower()
+    if n in RANGE_FALSE_POSITIVES:
+        return None
+    m = RE_HYPHEN_NUM.match(n)
+    if not m:
+        return None
+    stem = m.group("stem")
+    # Reject stems that already end in a digit (tox_surface5-1, peanyworld_r_1-2, …)
+    if stem and stem[-1].isdigit():
+        return None
+    return stem, int(m.group("idx"))
+
+
 def is_merge_name(name: str) -> bool:
     n = name.lower()
     if n in RANGE_FALSE_POSITIVES:
         return False
+    if n in PART_OVERRIDES:
+        return True
     if "merged" in n:
         return True
     if RE_RANGE_M.match(n):
         return True
     return False
+
+
+def find_unmerged_series_for_stem(
+    stem: str,
+    all_bsp: Set[str],
+    series_lists: Sequence[Sequence[str]],
+) -> List[str]:
+    """Unmerged part list for stem (sc_strangers, sc_strangers2, …), excluding stem-N packs."""
+    stem = stem.lower()
+    stem_re = re.compile(
+        rf"^{re.escape(stem)}(?:\d+|_\d+)?$",
+        re.I,
+    )
+    best: List[str] = []
+    for series in series_lists:
+        if any(hyphen_stem_idx(m) and hyphen_stem_idx(m)[0] == stem for m in series):
+            continue
+        members = [m for m in series if stem_re.match(m)]
+        if len(members) >= 2 and len(members) == len(series):
+            if len(members) > len(best):
+                best = members
+    if best:
+        return best
+    # Fallback from BSP names: stem, stem2, stem3… or stem1, stem2…
+    parts: List[str] = []
+    if stem in all_bsp:
+        parts.append(stem)
+        i = 2
+        while True:
+            cand = f"{stem}{i}" if f"{stem}{i}" in all_bsp else (
+                f"{stem}_{i}" if f"{stem}_{i}" in all_bsp else None
+            )
+            if not cand:
+                break
+            parts.append(cand)
+            i += 1
+    else:
+        i = 1
+        while True:
+            cand = f"{stem}{i}" if f"{stem}{i}" in all_bsp else (
+                f"{stem}_{i}" if f"{stem}_{i}" in all_bsp else None
+            )
+            if not cand:
+                break
+            parts.append(cand)
+            i += 1
+    return parts if len(parts) >= 2 else []
+
+
+def partition_evenly(items: List[str], n_chunks: int) -> List[List[str]]:
+    if n_chunks <= 0:
+        return []
+    if n_chunks == 1:
+        return [list(items)]
+    k, rem = divmod(len(items), n_chunks)
+    out: List[List[str]] = []
+    i = 0
+    for c in range(n_chunks):
+        sz = k + (1 if c < rem else 0)
+        out.append(items[i : i + sz])
+        i += sz
+    return out
+
+
+def is_hyphen_num_merge(
+    name: str,
+    info: Optional[dict],
+    all_bsp: Set[str],
+    series_lists: Sequence[Sequence[str]],
+) -> bool:
+    """True for NewBSPGuy (or override) packs named stem-N that replace a split series."""
+    hi = hyphen_stem_idx(name)
+    if not hi:
+        return False
+    n = name.lower()
+    if n in PART_OVERRIDES:
+        return True
+    markers = (info or {}).get("markers", {})
+    if not (markers.get("newbspguy") or markers.get("dup_classname")):
+        return False
+    stem, _idx = hi
+    parts = find_unmerged_series_for_stem(stem, all_bsp, series_lists)
+    hyphen_sibs = [
+        other for other in all_bsp
+        if (h := hyphen_stem_idx(other)) and h[0] == stem
+    ]
+    return len(parts) >= 2 and len(hyphen_sibs) >= 1
 
 
 def is_probable_range_merge(name: str, info: Optional[dict], all_bsp: Set[str]) -> bool:
@@ -443,11 +553,11 @@ def resolve_parts_for_merge(
     merge_name: str,
     all_bsp: Set[str],
     info: Optional[dict] = None,
+    series_lists: Optional[Sequence[Sequence[str]]] = None,
 ) -> Tuple[List[str], str]:
     """Return (parts, method)."""
     n = merge_name.lower()
     if n in PART_OVERRIDES:
-        parts = [p for p in PART_OVERRIDES[n] if p in all_bsp or True]
         # Keep override entries even if bsp missing (still useful for list edits)
         return list(PART_OVERRIDES[n]), "override"
 
@@ -463,6 +573,23 @@ def resolve_parts_for_merge(
         stem, a, b = m2.group("stem"), int(m2.group("start")), int(m2.group("end"))
         parts, _ = guess_parts(stem, a, b, all_bsp)
         return parts, "range"
+
+    hi = hyphen_stem_idx(n)
+    if hi and series_lists is not None:
+        stem, idx = hi
+        unmerged = find_unmerged_series_for_stem(stem, all_bsp, series_lists)
+        hyphen_maps = sorted(
+            [other for other in all_bsp if (h := hyphen_stem_idx(other)) and h[0] == stem],
+            key=lambda x: hyphen_stem_idx(x)[1],  # type: ignore[index]
+        )
+        if unmerged and hyphen_maps:
+            chunks = partition_evenly(unmerged, len(hyphen_maps))
+            try:
+                pos = hyphen_maps.index(n)
+            except ValueError:
+                pos = 0
+            if pos < len(chunks):
+                return chunks[pos], "hyphen-num"
 
     return [], "none"
 
@@ -623,7 +750,7 @@ def main() -> int:
     if args.fast:
         names = [
             n for n in all_names
-            if is_merge_name(n) or RE_RANGE.match(n)
+            if is_merge_name(n) or RE_RANGE.match(n) or hyphen_stem_idx(n)
         ]
     else:
         names = all_names
@@ -686,21 +813,31 @@ def main() -> int:
     merged: Dict[str, dict] = {}
     for name in sorted(all_bsp_names):
         info = infos.get(name)
-        if is_merge_name(name) or is_probable_range_merge(name, info, all_bsp_names):
-            parts, method = resolve_parts_for_merge(name, all_bsp_names, info)
+        if (
+            is_merge_name(name)
+            or is_probable_range_merge(name, info, all_bsp_names)
+            or is_hyphen_num_merge(name, info, all_bsp_names, series_lists)
+        ):
+            parts, method = resolve_parts_for_merge(
+                name, all_bsp_names, info, series_lists=series_lists
+            )
             # Filter parts: never list the merge itself
             parts = [p for p in parts if p != name]
             markers = (info or {}).get("markers", {})
+            if "merged" in name:
+                reason = "name-merged"
+            elif RE_RANGE_M.match(name):
+                reason = "name-range-m"
+            elif hyphen_stem_idx(name):
+                reason = "name-hyphen-num"
+            else:
+                reason = "name-range+evidence"
             merged[name] = {
                 "parts": parts,
                 "method": method,
                 "markers": markers,
                 "changelevels": (info or {}).get("changelevels", []),
-                "reason": (
-                    "name-merged" if "merged" in name else
-                    "name-range-m" if RE_RANGE_M.match(name) else
-                    "name-range+evidence"
-                ),
+                "reason": reason,
             }
 
     # Parts implied by name/override
