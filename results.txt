@@ -5,7 +5,7 @@ Entity source: direct entity lump (seek+read)
 Scan scope: FAST (merge candidates only)
 Found 5597 BSPs (scanning 133)
   scanning 1/133: 5waystodie1-2  scanning 133/133: ze_letonguesc_labv3_1-2m
-Merged map analysis — 2026-09-03T13:16:23
+Merged map analysis — 2026-09-03T13:25:33
 Config root: /home/svenserver/dev/KINGconfig
 BSPs scanned: 133 / 5597 (errors: 0)
 Mode: DRY-RUN
@@ -647,71 +647,10 @@ SKIPPED (merge exists on disk but is not in mapvote/mapcycle) (1)
   asmap00                                  would_need_votable=asmerged00
 
 ========================================================================
-MERGED MAPS NOT IN mapvote/mapvote3 (63) — informational
+FIRST MERGED MAPS NOT IN mapvote/mapvote3 (2) — add these only
 ========================================================================
   asmerged00
-  asmerged01
-  asmerged02
-  asmerged03_1
-  asmerged03_2
-  asmerged03_3
-  asmerged04_1
-  asmerged04_2
-  asmerged05_1
-  asmerged05_2
-  asmerged05_3
-  asmerged06
-  asmerged07
-  asmerged08
-  asmerged09
-  asmerged10_1
-  asmerged10_2
-  asmerged11
-  asmerged12
-  cad_merged01
-  cad_merged02
-  cad_merged03
-  cad_merged04
-  cad_merged05
-  cad_merged06
-  cad_merged07
-  cad_merged08
-  cad_merged09
-  casino_vulcano_l4-6m
-  darkstar_merged02
-  darkstar_merged03
-  darkstar_merged04
-  darkstar_merged05
   normall_merged
-  nwmerged1
-  nwmerged2
-  nwmerged3
-  nwmerged4
-  nwmerged5
-  nwmerged6
-  nwmerged7
-  po_merged02
-  po_merged03_1
-  po_merged03_2
-  po_merged03_3
-  po_merged03_4
-  po_merged03_5
-  po_merged03_6
-  po_merged04_1
-  po_merged04_2
-  po_merged04_3
-  po_merged05
-  pv_merged01
-  pv_merged01_2
-  pv_merged01_3
-  pv_merged02
-  pv_merged02_2
-  pv_merged02_3
-  pv_merged02_4
-  pv_merged03
-  pv_merged_outro
-  sc_avp5-7m
-  sc_avp8-9m
 
 Report written to /home/svenserver/dev/KINGconfig/analyze_merged_maps_report.txt
 

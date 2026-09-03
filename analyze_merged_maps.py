@@ -788,11 +788,44 @@ def main() -> int:
         to_hide.add(unmerged)
         hide_details.append((unmerged, merge_name, ",".join(where)))
 
-    # Merged maps missing from vote/cycle (informational)
-    merged_missing_vote = sorted(
-        m for m in merged
+    # Merged maps that are NOT series starts (mid-series / continuation packs).
+    # Only first maps belong in mapvote — e.g. nwmerged0 yes, nwmerged3 no;
+    # sc_avp1-4m yes, sc_avp5-7m no when a lower-range merge of the same stem exists.
+    merged_non_first: Set[str] = set()
+    all_changelevel_targets: Set[str] = set()
+    for targets in changelevels.values():
+        all_changelevel_targets.update(targets)
+    for series in series_lists:
+        for m in series[1:]:
+            merged_non_first.add(m)
+            all_changelevel_targets.add(m)
+
+    for m in merged:
+        if m in all_changelevel_targets:
+            merged_non_first.add(m)
+        # Range continuation packs: stem5-7m when stem1-4m also exists
+        rm = RE_RANGE_M.match(m)
+        if rm:
+            stem = rm.group("stem").lower()
+            start = int(rm.group("start"))
+            if start > 1:
+                for other in merged:
+                    rm2 = RE_RANGE_M.match(other)
+                    if (
+                        rm2
+                        and rm2.group("stem").lower() == stem
+                        and int(rm2.group("start")) < start
+                    ):
+                        merged_non_first.add(m)
+                        break
+
+    merged_first = sorted(m for m in merged if m not in merged_non_first)
+
+    # First-of-series merged maps missing from vote (candidates to add to mapvote)
+    merged_missing_vote = [
+        m for m in merged_first
         if m not in vote and m not in vote3 and m in all_bsp_names
-    )
+    ]
 
     # --- Report ---
     lines: List[str] = []
@@ -847,10 +880,13 @@ def main() -> int:
 
     lines.append("")
     lines.append("=" * 72)
-    lines.append(f"MERGED MAPS NOT IN mapvote/mapvote3 ({len(merged_missing_vote)}) — informational")
+    lines.append(
+        f"FIRST MERGED MAPS NOT IN mapvote/mapvote3 ({len(merged_missing_vote)}) — add these only"
+    )
     lines.append("=" * 72)
     for m in merged_missing_vote:
         lines.append(f"  {m}")
+
 
     if scan_errors:
         lines.append("")
