@@ -1,4 +1,3 @@
-101grnt1
 101grnt_v1
 101grunts
 123456_v1
@@ -1230,7 +1229,6 @@ toonrun1classic
 tora
 torn2
 touhou_hakureijinja
-tower1
 tower1-5
 tower6
 tower_v1
@@ -1250,7 +1248,6 @@ tubers_r
 tues_sciguard_beta2
 tunnelvision1
 tunnelvision_1
-tututu1
 tututu_v1
 twhltower_1
 txp1

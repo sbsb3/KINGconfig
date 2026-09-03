@@ -67,6 +67,8 @@ RE_MERGED = re.compile(r"^(?P<stem>.+?)_?merged(?P<suffix>.*)$", re.I)
 # Alternate merge pack naming: sc_strangers-1, enc-2 (stem must not end in a digit,
 # so tox_surface5-1 / echoes-style chapter names are not matched here by stem rule alone).
 RE_HYPHEN_NUM = re.compile(r"^(?P<stem>.+)-(?P<idx>\d+)$", re.I)
+# Version-suffix merges: 101grnt_v1 combining 101grnt1+2+3 (not af1_v1→af2_v1 versioned series).
+RE_VERSION_SUFFIX = re.compile(r"^(?P<stem>.+?)_v(?P<ver>\d+)$", re.I)
 
 # Names that look like N-M but are chapter/part labels, not merges.
 RANGE_FALSE_POSITIVES = {
@@ -120,6 +122,9 @@ PART_OVERRIDES: Dict[str, List[str]] = {
     # Hyphen-index merge packs (NewBSPGuy) replacing the classic split series.
     "sc_strangers-1": ["sc_strangers", "sc_strangers2"],
     "sc_strangers-2": ["sc_strangers3", "sc_strangers4"],
+    # Version-suffix / alternate-name merges of the 101grnt split series.
+    "101grnt_v1": ["101grnt1", "101grnt2", "101grnt3"],
+    "101grunts": ["101grnt1", "101grnt2", "101grnt3"],
     # Curated: merged nuclear-winter chain supersedes the classic split maps.
     "nwmerged0": [
         "nwintro", "nw0", "nw1", "nw2", "nw3", "nw4", "nw5", "nw6", "nw7",
@@ -472,6 +477,50 @@ def is_hyphen_num_merge(
     return len(parts) >= 2 and len(hyphen_sibs) >= 1
 
 
+def version_suffix_stem(name: str) -> Optional[str]:
+    """Return stem for names like 101grnt_v1; None otherwise."""
+    n = name.lower()
+    if n in RANGE_FALSE_POSITIVES:
+        return None
+    m = RE_VERSION_SUFFIX.match(n)
+    if not m:
+        return None
+    return m.group("stem").lower()
+
+
+def is_version_suffix_merge(
+    name: str,
+    info: Optional[dict],
+    all_bsp: Set[str],
+    series_lists: Sequence[Sequence[str]],
+) -> bool:
+    """
+    True for single-BSP merges named stem_vN (e.g. 101grnt_v1).
+
+    Excludes versioned *series* where each chapter is also _vN and changelevels
+    continue the campaign (af1_v1 → af2_v1).
+    """
+    n = name.lower()
+    if n in PART_OVERRIDES and version_suffix_stem(n):
+        return True
+    stem = version_suffix_stem(n)
+    if not stem:
+        return False
+    markers = (info or {}).get("markers", {})
+    changes = [(c or "").lower() for c in (info or {}).get("changelevels", [])]
+    # Versioned multi-map series: changelevel stays on the same _vN campaign.
+    for c in changes:
+        if RE_VERSION_SUFFIX.match(c) or c.startswith(stem):
+            return False
+    parts = find_unmerged_series_for_stem(stem, all_bsp, series_lists)
+    if len(parts) < 2:
+        return False
+    if markers.get("newbspguy") or markers.get("dup_classname"):
+        return True
+    # Marker-less but self-contained and replaces a known split series.
+    return not changes
+
+
 def is_probable_range_merge(name: str, info: Optional[dict], all_bsp: Set[str]) -> bool:
     """N-M without trailing m: treat as merge only with supporting evidence."""
     n = name.lower()
@@ -590,6 +639,12 @@ def resolve_parts_for_merge(
                 pos = 0
             if pos < len(chunks):
                 return chunks[pos], "hyphen-num"
+
+    stem_v = version_suffix_stem(n)
+    if stem_v and series_lists is not None:
+        unmerged = find_unmerged_series_for_stem(stem_v, all_bsp, series_lists)
+        if unmerged:
+            return unmerged, "version-suffix"
 
     return [], "none"
 
@@ -750,7 +805,12 @@ def main() -> int:
     if args.fast:
         names = [
             n for n in all_names
-            if is_merge_name(n) or RE_RANGE.match(n) or hyphen_stem_idx(n)
+            if (
+                is_merge_name(n)
+                or RE_RANGE.match(n)
+                or hyphen_stem_idx(n)
+                or version_suffix_stem(n)
+            )
         ]
     else:
         names = all_names
@@ -817,6 +877,7 @@ def main() -> int:
             is_merge_name(name)
             or is_probable_range_merge(name, info, all_bsp_names)
             or is_hyphen_num_merge(name, info, all_bsp_names, series_lists)
+            or is_version_suffix_merge(name, info, all_bsp_names, series_lists)
         ):
             parts, method = resolve_parts_for_merge(
                 name, all_bsp_names, info, series_lists=series_lists
@@ -824,12 +885,16 @@ def main() -> int:
             # Filter parts: never list the merge itself
             parts = [p for p in parts if p != name]
             markers = (info or {}).get("markers", {})
-            if "merged" in name:
+            if method == "override":
+                reason = "override"
+            elif "merged" in name:
                 reason = "name-merged"
             elif RE_RANGE_M.match(name):
                 reason = "name-range-m"
             elif hyphen_stem_idx(name):
                 reason = "name-hyphen-num"
+            elif version_suffix_stem(name):
+                reason = "name-version-suffix"
             else:
                 reason = "name-range+evidence"
             merged[name] = {

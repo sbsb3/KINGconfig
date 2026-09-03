@@ -3,23 +3,26 @@ Map dirs: ['/home/svenserver/serverfiles/svencoop_addon/maps', '/home/svenserver
 Mode: APPLY
 Entity source: direct entity lump (seek+read)
 Scan scope: FAST (merge candidates only)
-Found 5597 BSPs (scanning 187)
-  scanning 1/187: 5waystodie1-2  scanning 187/187: ze_letonguesc_labv3_1-2m
-Merged map analysis — 2026-09-03T13:42:48
+Found 5597 BSPs (scanning 329)
+  scanning 1/329: 101grnt_v1  scanning 201/329: po_merged01  scanning 329/329: zs_refugee_v2
+Merged map analysis — 2026-09-03T14:30:47
 Config root: /home/svenserver/dev/KINGconfig
-BSPs scanned: 187 / 5597 (errors: 0)
+BSPs scanned: 329 / 5597 (errors: 0)
 Mode: APPLY
 
 ========================================================================
-MERGED MAPS DETECTED (113)
+MERGED MAPS DETECTED (122)
 ========================================================================
-  5waystodie1-2                            reason=name-range+evidence method=override   markers=-                    parts: 5waystodie 5waystodie2
-  7hourswarep1-2m                          reason=name-range-m       method=override   markers=NewBSPGuy            parts: 7hourswar_ep1
+  101grnt_v1                               reason=override           method=override   markers=classname#1          parts: 101grnt1 101grnt2 101grnt3
+  101grunts                                reason=override           method=override   markers=classname#1          parts: 101grnt1 101grnt2 101grnt3
+  5waystodie1-2                            reason=override           method=override   markers=-                    parts: 5waystodie 5waystodie2
+  7hourswarep1-2m                          reason=override           method=override   markers=NewBSPGuy            parts: 7hourswar_ep1
   acopz1-2m                                reason=name-range-m       method=range-m    markers=NewBSPGuy,classname#1 parts: acopz acopz2
   actual1-2m                               reason=name-range-m       method=range-m    markers=-                    parts: actual actual2
-  adayinhell1-2m                           reason=name-range-m       method=override   markers=NewBSPGuy            parts: adayinhelle1 adayinhellf1
+  adayinhell1-2m                           reason=override           method=override   markers=NewBSPGuy            parts: adayinhelle1 adayinhellf1
+  adventure_v1                             reason=name-version-suffix method=version-suffix markers=classname#1          parts: adventure_1 adventure_2 adventure_3
   afrikakorps1-3m                          reason=name-range-m       method=range-m    markers=NewBSPGuy            parts: afrikakorps1 afrikakorps2 afrikakorps3
-  airport1-2m                              reason=name-range-m       method=override   markers=-                    parts: airport_beta airport_2_beta
+  airport1-2m                              reason=override           method=override   markers=-                    parts: airport_beta airport_2_beta
   ascii_art1-2m                            reason=name-range-m       method=range-m    markers=-                    parts: ascii_art ascii_art2
   asmerged00                               reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   asmerged01                               reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
@@ -40,7 +43,7 @@ MERGED MAPS DETECTED (113)
   asmerged10_2                             reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   asmerged11                               reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
   asmerged12                               reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
-  biglolly1-5m                             reason=name-range-m       method=override   markers=NewBSPGuy            parts: biglolly_v1
+  biglolly1-5m                             reason=override           method=override   markers=NewBSPGuy            parts: biglolly_v1
   borgcube1-2m                             reason=name-range-m       method=range-m    markers=NewBSPGuy            parts: borgcube borgcube2
   cad_merged00                             reason=name-merged        method=none       markers=NewBSPGuy,classname#1 parts: (no parts resolved)
   cad_merged01                             reason=name-merged        method=none       markers=NewBSPGuy,classname#1 parts: (no parts resolved)
@@ -62,23 +65,26 @@ MERGED MAPS DETECTED (113)
   darkstar_merged03                        reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   darkstar_merged04                        reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   darkstar_merged05                        reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
-  darkvoyagep1-2m                          reason=name-range-m       method=override   markers=-                    parts: darkvoyage darkvoyagept2
+  darkvoyagep1-2m                          reason=override           method=override   markers=-                    parts: darkvoyage darkvoyagept2
+  dogs_v1                                  reason=name-version-suffix method=version-suffix markers=classname#1          parts: dogs1 dogs2 dogs3 dogs4 dogs6 dogs5
   doomfest_merged                          reason=name-merged        method=none       markers=-                    parts: (no parts resolved)
   enc-1                                    reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: enc1 enc2
   enc-2                                    reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: enc3
   execommand1-3m                           reason=name-range-m       method=range-m    markers=-                    parts: execommand execommand2 execommand3
   g-ara1-5m                                reason=name-range-m       method=range-m    markers=-                    parts: g-ara1 g-ara2 g-ara3 g-ara4 g-ara5
   haunted1-2m                              reason=name-range-m       method=range-m    markers=-                    parts: haunted1 haunted2
-  hidoi_map1-2                             reason=name-range+evidence method=override   markers=-                    parts: hidoi_map1 hidoi_map2
-  hlm_mission1-2                           reason=name-range+evidence method=override   markers=NewBSPGuy            parts: hlm_mission01 hlm_mission02
+  hidoi_map1-2                             reason=override           method=override   markers=-                    parts: hidoi_map1 hidoi_map2
+  hlm_mission1-2                           reason=override           method=override   markers=NewBSPGuy            parts: hlm_mission01 hlm_mission02
   hot1-2m                                  reason=name-range-m       method=range-m    markers=-                    parts: hot hot2
   infiltracja-1                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja1 infiltracja2
   infiltracja-2                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja3
   infiltracja-3                            reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: infiltracja4
-  jailbreak1-2                             reason=name-range+evidence method=override   markers=-                    parts: jailbreak jailbreak2
+  jailbreak1-2                             reason=override           method=override   markers=-                    parts: jailbreak jailbreak2
   justcause1-3m                            reason=name-range-m       method=range-m    markers=classname#1          parts: justcause01 justcause02 justcause03
+  monster_v1                               reason=name-version-suffix method=version-suffix markers=classname#1          parts: monster2 monster3 monster4 monster5 monster6 monster7 monster8
+  monster_v2                               reason=name-version-suffix method=version-suffix markers=classname#1          parts: monster2 monster3 monster4 monster5 monster6 monster7 monster8
   normall_merged                           reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
-  nwmerged0                                reason=name-merged        method=override   markers=classname#1          parts: nwintro nw0 nw1 nw2 nw3 nw4 nw5 nw6 nw7 nw8 nw9 nw9a y10 nw10 nw11 nw12 nw13 nw14 nw15 nw16 nw17 nw18 nw19 nw20 nw21 nw22 nw23 nw24 nw25
+  nwmerged0                                reason=override           method=override   markers=classname#1          parts: nwintro nw0 nw1 nw2 nw3 nw4 nw5 nw6 nw7 nw8 nw9 nw9a y10 nw10 nw11 nw12 nw13 nw14 nw15 nw16 nw17 nw18 nw19 nw20 nw21 nw22 nw23 nw24 nw25
   nwmerged1                                reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
   nwmerged2                                reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
   nwmerged3                                reason=name-merged        method=none       markers=classname#1          parts: (no parts resolved)
@@ -115,29 +121,31 @@ MERGED MAPS DETECTED (113)
   sc_avp8-9m                               reason=name-range-m       method=range-m    markers=-                    parts: sc_avp8 sc_avp9
   sc_dead_zone1-2m                         reason=name-range-m       method=range-m    markers=NewBSPGuy,classname#1 parts: sc_dead_zone sc_dead_zone2
   sc_habitat1-2m                           reason=name-range-m       method=range-m    markers=NewBSPGuy,classname#1 parts: sc_habitat sc_habitat2
-  sc_strangers-1                           reason=name-hyphen-num    method=override   markers=NewBSPGuy            parts: sc_strangers sc_strangers2
-  sc_strangers-2                           reason=name-hyphen-num    method=override   markers=NewBSPGuy            parts: sc_strangers3 sc_strangers4
+  sc_strangers-1                           reason=override           method=override   markers=NewBSPGuy            parts: sc_strangers sc_strangers2
+  sc_strangers-2                           reason=override           method=override   markers=NewBSPGuy            parts: sc_strangers3 sc_strangers4
   stackdeathpb1-2m                         reason=name-range-m       method=range-m    markers=NewBSPGuy            parts: stackdeathpb1 stackdeathpb2
   td-1                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: td0 td1
   td-2                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy,classname#1 parts: td2 td3
   td-3                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td4
   td-4                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td5
   td-5                                     reason=name-hyphen-num    method=hyphen-num markers=NewBSPGuy            parts: td6
-  uboa_argentino1-2                        reason=name-range+evidence method=override   markers=-                    parts: uboa_argentino uboa_argentino2
+  toohardmap_v1                            reason=name-version-suffix method=version-suffix markers=classname#1          parts: toohardmap1 toohardmap2 toohardmap3
+  tower_v1                                 reason=name-version-suffix method=version-suffix markers=classname#1          parts: tower1 tower2 tower3 tower4 tower5
+  tututu_v1                                reason=name-version-suffix method=version-suffix markers=-                    parts: tututu1 tututu2 tututu3 tututu4 tututu5 tututu6 tututu7 tututu8 tututu9 tututu10
+  uboa_argentino1-2                        reason=override           method=override   markers=-                    parts: uboa_argentino uboa_argentino2
   ya_control1-3m                           reason=name-range-m       method=range-m    markers=-                    parts: (no parts resolved)
-  ze_letonguesc_labv3_1-2m                 reason=name-range-m       method=override   markers=NewBSPGuy            parts: ze_letonguesc_lab_v3 ze_letonguesc_lab2_v3
+  ze_letonguesc_labv3_1-2m                 reason=override           method=override   markers=NewBSPGuy            parts: ze_letonguesc_lab_v3 ze_letonguesc_lab2_v3
 
 ========================================================================
-UNMERGED SERIES WITH NO MERGED VERSION (479)
+UNMERGED SERIES WITH NO MERGED VERSION (482)
 ========================================================================
-  101grnt1 101grnt2 101grnt3
   7days_r_1 7days_r_2 halloween22f
   a_jungle_1 a_jungle_2 a_jungle_3 a_jungle_4 a_jungle_5 a_jungle_6 a_jungle_7
   aa_protozoaire aa_protozoaire_suite
   adato1 adato2
-  adventure_1 adventure_2 adventure_3
   aerodock1 aerodock2
   af1 af2
+  af1_v1 af2_v1
   af1_v2 af2_v2
   afraidofmonsters_lobby aomdc_2training aomdc_2intro aomdc_1intro aomdc_1training aomdc_3intro aomdc_3training aom_training aom_intro aomdc_2nightmare aomdc_1nightmare aomdc_3nightmare aom_nightmare aomdc_2hospital aomdc_1hospital aomdc_3hospital aom_hospital aomdc_2hospital2 aomdc_1hospital2 aomdc_3hospital2 aom_hospital2 aomdc_2garage aomdc_1garage aomdc_3garage aom_garage aomdc_2backalley aomdc_1backalley aomdc_3backalley aom_backalley aomdc_2darkalley aomdc_1darkalley aomdc_3darkalley aom_darkalley aomdc_2sewer aomdc_1sewer aomdc_3sewer aom_city aomdc_2city aomdc_1city aomdc_3city aom_city2 aomdc_2city2 aomdc_1city2 aomdc_3city2 aom_city3 aomdc_2city3 aomdc_1cityx aomdc_3city3 aom_sick aomdc_2sick aomdc_1ridingcar aomdc_3city4 aom_sick2 aomdc_2sick2 aomdc_1carforest aomdc_3cityz aom_sick3 aomdc_2sorgarden aomdc_1afterforest aomdc_3sick aom_forest aomdc_2sorgarden2 aomdc_1angforest aomdc_3sick2 aom_forhouse aomdc_2arforest aomdc_1forhouse aomdc_3sorgarden aom_forest2 aomdc_2afterforest aomdc_1forest2 aomdc_3sorgarden2 aom_forest3 aomdc_2angforest aomdc_1forest3 aomdc_3arforest aom_heaven1 aomdc_2forhouse aomdc_1heaven1 aomdc_3afterforest aom_heaven2 aomdc_2forest2 aomdc_1heaven2 aomdc_4mother aomdc_3angforest aom_end aomdc_2forest3 aomdc_1end aomdc_4end aomdc_3forhouse aomdc_2heaven1 aomdc_3forest2 aomdc_2heaven2 aomdc_3forest3 aomdc_2end aomdc_3heaven1 aomdc_3heaven2 aomdc_3end
   agpain1 agpain2 agpain3
@@ -179,14 +187,18 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   btx1 btx2 jan3 btx3 btx4 btx5 btx6
   c0h c1h
   c0h_v2 c1h
+  c2ac2a_v2 c2ac3_v2 c2ac2a c2ac3c
   c2ac4b c2ac4c c2ac5_v2
   c2ac4b_v2 c2ac4c c2ac5_v2
+  c2ac4b_v3 c2ac4c
+  c2ac4b_v4 c2ac4c_v2
   c2ac4c_v1 c2ac5
   caged-1 caged-2 caged-3 caged_bonus caged_4
   caged_intro caged_01 caged_02 caged_0 caged_0com caged_1 caged_1b caged_03 caged_04 caged_1c caged_2 caged_end caged_3 caged_bonus caged_4
   case1 case2 case3 case4 case5 case6 case7
   case1 x1 case2 case3 case4 case5 case5a case6 case7 case8 x13 case9
   catharsis catharsis1a
+  chess_v1 shakki_v1
   co1a co1b co1c co1d co1e co1f co1g co1h co1i co1j co1k
   combined-1v3 combined-2v3
   combined1v3 combined2v3 combined3v3
@@ -216,6 +228,7 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   deathwish deathwish_secret
   deliver1 deliver2 deliver3 deliver3b
   deliver_1 deliver_2
+  deluge_beta_v3 deluge2
   desastre desastre_cap1 desastre_cap2 desastre_cap3 desastre_cap4 desastre_cap5 desastre_cap6 desastre_cap7 desastre_cap8 desastre_e2_intro desastre_e2_1a ultimatum_desastre_1b desastre_e2_1b desastre_e2_1c desastre_e2_1d desastre_e2_1e desastre_e2_1f desastre_2_g desastre_e2_1g desastre_2_end desastre_e2_1h desastre_e2_1i desastre_e2_2a desastre_e2_end desastre_e3_intro desastre_e3_1a desastre_e3_1b desastre_t2_1a desastre_t2_1b desastre_t2_1c
   desastre_a desastre_1a desastre_1b desastre_1c desastre_2 desastre_2_1a desastre_2_1b desastre_2_a1 desastre_2_1 desastre_2_1_1a desastre_1b_1a desastre_2_1_1b desastre_2_1_1a_a desastre_2_2 desastre_2_2_1a desastre_2_2_1a_1b desastre_2_2_1a_1b_1a desastre_2_2_1a_1a desastre_2_2_1a_1c desastre_2_b desastre_2_e desastre_2_e_2 desastre_2_e_3 desastre_2_end_c2 desastre_2_e_1 desastre_2_f desastre_2_e_4 desastre_2_g desastre_2_end_c desastre_2_end desastre_e2_intro desastre_e2_1a ultimatum_desastre_1b desastre_e2_1b desastre_e2_1c desastre_e2_1d desastre_e2_1e desastre_e2_1f desastre_e2_1g desastre_e2_1h desastre_e2_1i desastre_e2_2a desastre_e2_end desastre_e3_intro desastre_e3_1a desastre_e3_1b desastre_t2_1a desastre_t2_1b desastre_t2_1c
   deth1 deth2
@@ -226,7 +239,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   dn3d3_trans dn3d2 dn3d3 dn3d1 deathrowtrans dn3d3_sub dn3d4_1 dn3d4_2 dn3d4_3 dn3d5 dn3d5_2
   dn3d_r_1 dn3d_r_2 dn3d_r_3 dn3d_r_4 dn3d_r_5 dn3d_r_6
   dogs-1 dogs-2
-  dogs1 dogs2 dogs3 dogs4 dogs6 dogs5
   doom2_ep1_b7 doom2_ep2_b7
   dy_accident1 dy_accident2 dy_hazard dy_uplink dy_dampen dy_dorms dy_signal dy_focus dy_lasers dy_fubar dy_outro dy_alien
   e0a e0b e1a e1c e1d e1e e1f e1g e1h e2a e2b e1j
@@ -358,8 +370,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   mf1 mf2 mf3 mf4
   mg386_osp1 mg386_osp2 mg386_osp3 mg386_osp4
   mistake_coop_a mistake_coop_b mistake_coop_c mistake_coop_d mistake_coop_e mistake_coop_f mistake_coop_g mistake_coop_h mistake_coop_i mistake_coop_j mistake_credits_k
-  monster2 monster3 monster4 monster5 monster6 monster7 monster8
-  monsterdok5 monster5 monsterdok6 monster6 monsterdok7 monster7 monster8
   mw_insertion1 mw_insertion2 mw_insertion3 mw_insertion4
   n0a0 n0a0b n0a1 n0a1b n1a0 n1a1 n1a2 n1a3 n1a4 n1a5 n1a6 n1a7 n1a7b n1a7c n1a8 n1a9 n1a9b n1a9c n2a0 n2a1 n2a1a n2a1b n2a2 n2a3 n2a4 n2a5 n2a6 n2a7
   nickcagetomb1 nickcagetomb2 nickcagetomb3 nickcagetomb4
@@ -460,6 +470,7 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   rtkw1 rtkw2 rtkw3 rtkw4 rtkw5 rtkw6 rtkw7 rtkw8 rtkw9 rtkw10 rtkw11 rtkw12 rtkw13 rtkw14
   ruosteb3 ruoste2b3 ruoste3b3
   rv_c2ac1_v6 rv_c2ac2 rv_c2ac2c
+  rv_c2ac2_v2 rv_c2ac2c_v1 rv_c2ac2a
   sa13 sa13a sa13b sa13c sa13d sa13e sa13f sa13g sa13h sa13i sa13j sa13end sa13canal sa13snow sa13ecolo sa13gth sa13panchem
   sa13_1 sa13_2 sa13_3 sa13_4 sa13_5 sa13_6 sa13_7 sa13_8 sa13_9 sa13_10 sa13_11 sa13_12 sa13_13 sa13_14 sa13_15 sa13_16 sa13_17
   santas_workshop santas_workshop_pt2
@@ -529,7 +540,9 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   shl_training shl_0 shl_1 shl_2 shl_3 shl_4 shl_5 shl_4b shl_6 shl_5b shl_7
   sl_c01_a1 sl_c01_a2 sl_c02_a1 sl_c02_a2 sl_c03 sl_c04 sl_c05_a1 sl_c05_a2 sl_c05_a3 sl_c06 sl_c07_a1 sl_c07_a2 sl_c08_a1 sl_c08_a2 sl_c09 sl_c10 sl_c11_a1 sl_c11_a2 sl_c11_a3 sl_c11_a4 sl_c11_a5 sl_c12 sl_c13_a1 sl_c13_a2 sl_c13_a3 sl_c13_a4 sl_c14 sl_c15 sl_c16_a1 sl_c16_a2 sl_c16_a3 sl_c16_a4 sl_c17 sl_c18
   source_of_life_1_a source_of_life_2_a source_of_life source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a source_of_life_1_a_v2 source_of_life_4_a source_of_life_4_b_v2 source_of_life_2_a_v2 source_of_life_5_a source_of_life_end
+  source_of_life_1_a_v2 source_of_life_2_a_v2 source_of_life source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a
   source_of_life_4_b source_of_life source_of_life_5_a source_of_life_1_a_v2 source_of_life_end source_of_life_2_a_v2 source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a source_of_life_4_a source_of_life_4_b_v2
+  source_of_life_4_b_v2 source_of_life source_of_life_5_a
   spaceprisoner spaceprisoner2 fortified1
   spb_act1 spb_act3
   squad_gman1 squad_gman2
@@ -569,7 +582,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   toonrun1_classic toonrun2_classic toonrun3_classic
   toonrun1classic toonrun2classic toonrun3classic
   torre_wip4_1 torre_wip4_2 torre_wip4_3d
-  tower1 tower2 tower3 tower4 tower5
   tower1-5 tower6
   tox_surface-a tox_surface-b tox_surface-c
   tox_surface5-1 tox_surface5-2 tox_surface8-0 tox_surface8-1 tox_surface8-2
@@ -581,7 +593,6 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   tunnelvision_1b tunnelvision_1c tunnelvision_2 tunnelvision_3 tunnelvision_4 tunnelvision_5balls
   tunnelvision_5 tunnelvision_6
   tuntis_blackmesadefence1 tuntis_blackmesadefence2
-  tututu1 tututu2 tututu3 tututu4 tututu5 tututu6 tututu7 tututu8 tututu9 tututu10
   twhltower_1 twhltower_2
   txp1 txp2 txp3 txp4
   u1m0 u1m1 u1m2 u1m3
@@ -589,6 +600,7 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   ub_iseki1 ub_iseki2
   ub_megaman ub_megaman2 ub_megaman3
   ulife_1 ulife_2 ulife_3 sc_unreal
+  uni_v1 uni2
   urbicide_01 urbicide_02 urbicide2 urbicide_03 urbicide_04 urbicide_05 urbicide_06 urbicide_07 urbicide_07b urbicide_08 urbicide_09
   usd_hl_c00 usd_hl_c01_a1 usd_hl_c01_a2 usd_hl_c02_a1 usd_hl_c02_a2 usd_hl_c03 usd_hl_c04 usd_hl_c05_a1 usd_hl_c05_a2 usd_hl_c05_a3 usd_hl_c06 usd_hl_c07_a1 usd_hl_c07_a2 usd_hl_c08_a1 usd_hl_c08_a2 usd_hl_c09 usd_hl_c10 usd_hl_c11_a1 usd_hl_c11_a2 usd_hl_c11_a4 usd_hl_c11_a5 usd_hl_c12 usd_hl_c13_a1 usd_hl_c13_a2 usd_hl_c13_a3 usd_hl_c13_a4 usd_hl_c14 usd_hl_c15 usd_hl_c16_a1 usd_hl_c16_a2 usd_hl_c16_a3 usd_hl_c16_a4 usd_hl_c17 usd_hl_c18
   usd_of4a5 usd_of4a4 usd_of5a1 usd_of5a2 usd_of5a3 usd_of5a4 usd_of6a1 usd_of6a2 usd_of6a3 usd_of6a4 usd_of6a4b usd_of6a5 usd_of7a0
@@ -611,45 +623,11 @@ UNMERGED SERIES WITH NO MERGED VERSION (479)
   zubben_intro zubben_1 zubben_2
 
 ========================================================================
-SUPERSEDED UNMERGED MAPS IN mapvote/mapcycle → move to hidden (37)
+SUPERSEDED UNMERGED MAPS IN mapvote/mapcycle → move to hidden (3)
 ========================================================================
-  7hourswar_ep1                            superseded_by=7hourswarep1-2m                currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  acopz                                    superseded_by=acopz1-2m                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  actual                                   superseded_by=actual1-2m                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  adayinhelle1                             superseded_by=adayinhell1-2m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  afrikakorps1                             superseded_by=afrikakorps1-3m                currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  airport_2_beta                           superseded_by=airport1-2m                    currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  airport_beta                             superseded_by=airport1-2m                    currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  ascii_art                                superseded_by=ascii_art1-2m                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  ascii_art2                               superseded_by=ascii_art1-2m                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  borgcube                                 superseded_by=borgcube1-2m                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  cad_ctraining                            superseded_by=cad_merged00                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  cad_lab1                                 superseded_by=cad_merged00                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  casino_vulcano_l1                        superseded_by=casino_vulcano_l1-3m           currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  coop1                                    superseded_by=coop1-3m                       currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  crisis1                                  superseded_by=crisis1-2m                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  crisis2                                  superseded_by=crisis1-2m                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  darkforest1                              superseded_by=darkforest1-2m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  darkvoyage                               superseded_by=darkvoyagep1-2m                currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  darkvoyagept2                            superseded_by=darkvoyagep1-2m                currently_in=mapvote,mapvote3
-  enc1                                     superseded_by=enc-1                          currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  execommand                               superseded_by=execommand1-3m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  g-ara1                                   superseded_by=g-ara1-5m                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  haunted1                                 superseded_by=haunted1-2m                    currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  hidoi_map1                               superseded_by=hidoi_map1-2                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  hlm_mission01                            superseded_by=hlm_mission1-2                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  infiltracja1                             superseded_by=infiltracja-1                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  jailbreak                                superseded_by=jailbreak1-2                   currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  justcause01                              superseded_by=justcause1-3m                  currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  nw1                                      superseded_by=nwmerged0                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  sc_avp                                   superseded_by=sc_avp1-4m                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  sc_dead_zone                             superseded_by=sc_dead_zone1-2m               currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  sc_habitat                               superseded_by=sc_habitat1-2m                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  sc_strangers                             superseded_by=sc_strangers-1                 currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  stackdeathpb1                            superseded_by=stackdeathpb1-2m               currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  td0                                      superseded_by=td-1                           currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  uboa_argentino                           superseded_by=uboa_argentino1-2              currently_in=mapvote,mapvote3,mapcycle,mapcycle3
-  uboa_argentino2                          superseded_by=uboa_argentino1-2              currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  101grnt1                                 superseded_by=101grnt_v1                     currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  tower1                                   superseded_by=tower_v1                       currently_in=mapvote,mapvote3,mapcycle,mapcycle3
+  tututu1                                  superseded_by=tututu_v1                      currently_in=mapvote,mapvote3,mapcycle,mapcycle3
 
 ========================================================================
 SKIPPED (merge exists on disk but is not in mapvote/mapcycle) (1)
@@ -657,9 +635,10 @@ SKIPPED (merge exists on disk but is not in mapvote/mapcycle) (1)
   asmap00                                  would_need_votable=asmerged00
 
 ========================================================================
-FIRST MERGED MAPS NOT IN mapvote/mapvote3 (2) — add these only
+FIRST MERGED MAPS NOT IN mapvote/mapvote3 (3) — add these only
 ========================================================================
   asmerged00
+  monster_v1
   normall_merged
 
 Report written to /home/svenserver/dev/KINGconfig/analyze_merged_maps_report.txt
@@ -667,133 +646,21 @@ Report written to /home/svenserver/dev/KINGconfig/analyze_merged_maps_report.txt
 ========================================================================
 LIST FILE CHANGES
 ========================================================================
-  mapvote: remove 37 (+37 new → hidden, 0 already hidden)
-      - 7hourswar_ep1
-      - acopz
-      - actual
-      - adayinhelle1
-      - afrikakorps1
-      - airport_2_beta
-      - airport_beta
-      - ascii_art
-      - ascii_art2
-      - borgcube
-      - cad_ctraining
-      - cad_lab1
-      - casino_vulcano_l1
-      - coop1
-      - crisis1
-      - crisis2
-      - darkforest1
-      - darkvoyage
-      - darkvoyagept2
-      - enc1
-      - execommand
-      - g-ara1
-      - haunted1
-      - hidoi_map1
-      - hlm_mission01
-      - infiltracja1
-      - jailbreak
-      - justcause01
-      - nw1
-      - sc_avp
-      ... +7 more
-  mapvote3: remove 37 (+37 new → hidden3, 0 already hidden)
-      - 7hourswar_ep1
-      - acopz
-      - actual
-      - adayinhelle1
-      - afrikakorps1
-      - airport_2_beta
-      - airport_beta
-      - ascii_art
-      - ascii_art2
-      - borgcube
-      - cad_ctraining
-      - cad_lab1
-      - casino_vulcano_l1
-      - coop1
-      - crisis1
-      - crisis2
-      - darkforest1
-      - darkvoyage
-      - darkvoyagept2
-      - enc1
-      - execommand
-      - g-ara1
-      - haunted1
-      - hidoi_map1
-      - hlm_mission01
-      - infiltracja1
-      - jailbreak
-      - justcause01
-      - nw1
-      - sc_avp
-      ... +7 more
-  mapcycle: remove 36 (+0 new → hidden, 36 already hidden)
-      - 7hourswar_ep1
-      - acopz
-      - actual
-      - adayinhelle1
-      - afrikakorps1
-      - airport_2_beta
-      - airport_beta
-      - ascii_art
-      - ascii_art2
-      - borgcube
-      - cad_ctraining
-      - cad_lab1
-      - casino_vulcano_l1
-      - coop1
-      - crisis1
-      - crisis2
-      - darkforest1
-      - darkvoyage
-      - enc1
-      - execommand
-      - g-ara1
-      - haunted1
-      - hidoi_map1
-      - hlm_mission01
-      - infiltracja1
-      - jailbreak
-      - justcause01
-      - nw1
-      - sc_avp
-      - sc_dead_zone
-      ... +6 more
-  mapcycle3: remove 36 (+0 new → hidden3, 36 already hidden)
-      - 7hourswar_ep1
-      - acopz
-      - actual
-      - adayinhelle1
-      - afrikakorps1
-      - airport_2_beta
-      - airport_beta
-      - ascii_art
-      - ascii_art2
-      - borgcube
-      - cad_ctraining
-      - cad_lab1
-      - casino_vulcano_l1
-      - coop1
-      - crisis1
-      - crisis2
-      - darkforest1
-      - darkvoyage
-      - enc1
-      - execommand
-      - g-ara1
-      - haunted1
-      - hidoi_map1
-      - hlm_mission01
-      - infiltracja1
-      - jailbreak
-      - justcause01
-      - nw1
-      - sc_avp
-      - sc_dead_zone
-      ... +6 more
+  mapvote: remove 3 (+3 new → hidden, 0 already hidden)
+      - 101grnt1
+      - tower1
+      - tututu1
+  mapvote3: remove 3 (+3 new → hidden3, 0 already hidden)
+      - 101grnt1
+      - tower1
+      - tututu1
+  mapcycle: remove 3 (+0 new → hidden, 3 already hidden)
+      - 101grnt1
+      - tower1
+      - tututu1
+  mapcycle3: remove 3 (+0 new → hidden3, 3 already hidden)
+      - 101grnt1
+      - tower1
+      - tututu1
 
 Applied. Review git diff in KINGconfig, then deploy the list files to the server.

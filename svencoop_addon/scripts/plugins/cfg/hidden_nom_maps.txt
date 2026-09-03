@@ -1,5 +1,6 @@
 -war_field-
 007_gargfight
+101grnt1
 1scaredtobeshit_v2
 24hourmap2
 2battle
@@ -864,6 +865,7 @@ tma_floor
 toohardmap1
 torn
 touhou_hakureijinja.orig
+tower1
 tower_tetsu0
 tox_office_beta
 tox_xen1-2
@@ -879,6 +881,7 @@ tubers1
 tunnel
 turkroaches
 turretfortress
+tututu1
 tutz
 tuukkekovajatka
 twhl-lobby
