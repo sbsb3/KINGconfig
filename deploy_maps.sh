@@ -3,7 +3,8 @@ set -euo pipefail
 
 # Deploy map list text files from KINGconfig into a serverfiles-style tree.
 # Mirrors deploy_as.sh conventions (DEST_DIR staging/live, optional SYNC_REMOTE)
-# but only ships mapcycle / mapvote / hidden_nom_maps (both server variants).
+# but only ships mapcycle / mapvote / hidden_nom_maps (both server variants)
+# plus RockTheVote series_maps.txt.
 #
 # Usage:
 #   ./deploy_maps.sh
@@ -38,6 +39,7 @@ MAP_LIST_FILES=(
     "svencoop_addon/scripts/plugins/cfg/mapvote3.txt"
     "svencoop_addon/scripts/plugins/cfg/hidden_nom_maps.txt"
     "svencoop_addon/scripts/plugins/cfg/hidden_nom_maps3.txt"
+    "svencoop_addon/scripts/plugins/RockTheVote/series_maps.txt"
 )
 
 # rsync -auvP: archive, only-update-if-newer, verbose, progress — same as deploy_as.sh.

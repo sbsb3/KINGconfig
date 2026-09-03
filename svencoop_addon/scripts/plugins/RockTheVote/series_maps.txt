@@ -22,7 +22,6 @@ aomdc_1afterforest_fix aomdc_1carforest aomdc_1angforest aomdc_1afterforest aomd
 aomdc_1hospital_fix aomdc_1nightmare aomdc_1hospital2 aomdc_1hospital aomdc_1garage aomdc_1backalley aomdc_1darkalley aomdc_1sewer aomdc_1city aomdc_1city2 aomdc_1cityx aomdc_1ridingcar aomdc_1carforest aomdc_1afterforest aomdc_1angforest aomdc_1forhouse aomdc_1forest2 aomdc_1forest3 aomdc_1heaven1 aomdc_1heaven2 aomdc_4mother aomdc_1end aomdc_4end
 aomdc_2afterforest_fix aomdc_2arforest aomdc_2angforest aomdc_2afterforest aomdc_2forhouse aomdc_2forest2 aomdc_2forest3 aomdc_2heaven1 aomdc_2heaven2 aomdc_4mother aomdc_2end aomdc_4end
 aomdc_lobby aomdc_2training aomdc_2intro aomdc_1intro aomdc_1training aomdc_3intro aomdc_3training aomdc_2nightmare aomdc_1nightmare aomdc_3nightmare aomdc_2hospital aomdc_1hospital aomdc_3hospital aomdc_2hospital2 aomdc_1hospital2 aomdc_3hospital2 aomdc_2garage aomdc_1garage aomdc_3garage aomdc_2backalley aomdc_1backalley aomdc_3backalley aomdc_2darkalley aomdc_1darkalley aomdc_3darkalley aomdc_2sewer aomdc_1sewer aomdc_3sewer aomdc_2city aomdc_1city aomdc_3city aomdc_2city2 aomdc_1city2 aomdc_3city2 aomdc_2city3 aomdc_1cityx aomdc_3city3 aomdc_2sick aomdc_1ridingcar aomdc_3city4 aomdc_2sick2 aomdc_1carforest aomdc_3cityz aomdc_2sorgarden aomdc_1afterforest aomdc_3sick aomdc_2sorgarden2 aomdc_1angforest aomdc_3sick2 aomdc_2arforest aomdc_1forhouse aomdc_3sorgarden aomdc_2afterforest aomdc_1forest2 aomdc_3sorgarden2 aomdc_2angforest aomdc_1forest3 aomdc_3arforest aomdc_2forhouse aomdc_1heaven1 aomdc_3afterforest aomdc_2forest2 aomdc_1heaven2 aomdc_4mother aomdc_3angforest aomdc_2forest3 aomdc_1end aomdc_4end aomdc_3forhouse aomdc_2heaven1 aomdc_3forest2 aomdc_2heaven2 aomdc_3forest3 aomdc_2end aomdc_3heaven1 aomdc_3heaven2 aomdc_3end
-aom_training aom_intro aom_nightmare aom_hospital aom_hospital2 aom_garage aom_backalley aom_darkalley aom_city aom_city2 aom_city3 aom_sick aom_sick2 aom_sick3 aom_forest aom_forhouse aom_forest2 aom_forest3 aom_heaven1 aom_heaven2 aom_end
 arcad_v1 arcad2_v1
 arctic_ha arctic2_ha arctic3_ha
 arctic_incident_1 arctic_incident_2
@@ -66,7 +65,6 @@ cad_ctraining cad_intro_01
 cad_ctraining cad_merged00 cad_lab1 cad_merged01 cad_merged02 cad_merged03 cad_merged04 cad_merged05 cad_merged06 cad_merged07 cad_merged08 cad_merged09 cad_outro
 caged-1 caged-2 caged-3 caged_bonus caged_4
 caged_intro caged_01 caged_02 caged_0 caged_0com caged_1 caged_1b caged_03 caged_04 caged_1c caged_2 caged_end caged_3 caged_bonus caged_4
-case1 case2 case3 case4 case5 case6 case7
 case1 x1 case2 case3 case4 case5 case5a case6 case7 case8 x13 case9
 casino_vulcano_l1 casino_vulcano_l2 casino_vulcano_l3 casino_vulcano_l4 casino_vulcano_l5 casino_vulcano_l6
 casino_vulcano_l1-3m casino_vulcano_l4-6m
@@ -125,7 +123,6 @@ enc1 enc2 enc3
 eod1 eod2 eod3 eod4 eod5
 epidauro-m1 epidauro-m2
 escape_series escape_series_1a escape_series_2a escape_series_3a escape_series_1b escape_series_2b escape_series_3b escape_series_2c escape_series_3c escape_series_2d escape_series_3d escape_series_2e escape_series_3e
-escape_series_1a escape_series_1b escape_series_2a escape_series_2b escape_series_2c escape_series_2d escape_series_2e escape_series_3a escape_series_3b escape_series_3c escape_series_3d escape_series_3e
 eshq01 eshq02 eshq03 eshq04 eshq05 eshq06 eshq07 eshq08 eshq09 eshq10 eshq11 eshq12 eshq13 eshq14 eshq15 eshq16 eshq17 eshq18 eshq19 eshq20 eshq21 eshq22 eshq23 eshq24 eshq25 eshq26 eshq27 eshq28 eshq29 eshq30 eshq31 eshq32 eshq33 eshq34 eshq35 eshq36 eshq37 eshq38 eshq39 eshq40 eshq41 eshq42 eshq43 eshq44 eshq45 eshq46 eshq47 eshq48 eshq49 eshq50 eshq51 eshq52 eshq53 eshq54 eshq55 eshq56 eshq57 eshq58 eshq59 eshq60 eshq61a eshq62 eshq63 eshq64 eshq65 eshq66 eshq67 eshq_end
 esw_1 esw_2
 esw_1_v3 esw_2_v3
@@ -146,7 +143,6 @@ fallback_ice1 fallback_ice2 fallback_ice3
 faraon1 faraon2 faraon3 faraon4
 fate0 fate1 kaupunki canyon asepihauutta fate2 lumikohta lopullinenko fate3 battle outro avaruus katto
 fired01_mv1 fired02_mv1
-fi_c01_a1 fi_c01_a2 fi_c02_a1 fi_c02_a2 fi_c03_a1 fi_c03_a2 fi_c03_a3 fi_c04_a1 fi_c04_a2 fi_c05_a1 fi_c05_a2 fi_c06_a1 fi_c06_a2 fi_c06_a3 fi_c07_a1 fi_c07_a2 fi_c07_a3 fi_c08_a1 fi_c08_a2 fi_c09_a1 fi_c09_a2 fi_c10_a1 fi_c10_a2
 fi_lobby fi_c01_a1 fi_c04_a1 fi_c05_a1 fi_c02_a1 fi_c03_a1 fi_c06_a1 fi_c07_a1 fi_c08_a1 fi_c09_a1 fi_c10_a1 fid1a0 fi_c01_a2 fi_c04_a2 fi_c05_a2 fi_c02_a2 fi_c03_a2 fi_c06_a2 fi_c07_a2 fi_c08_a2 fi_c09_a2 fi_c10_a2 fi_c03_a3 fi_c06_a3 fi_c07_a3
 forest_clearing1 forest_clearing2
 forest_clearing_1 forest_clearing_2 forest_clearing_3
@@ -169,9 +165,7 @@ hc1 hc2 hc3 hc4
 hc10 hc11
 hc2_a3 hc2a1
 hc2_b2 hc2b2 hc2_b3a hc2_b3b hc2_b3c hc2_b4 hc2b4 hc2c14 hc2_a1 hc2_s2 hc2_c1 hc2_b1 hc2_a2 hc2_s2a hc2_c3 hc2_b2a hc2b1 hc2a1 hc2_s2b hc2_b3 hc2_c4 hc2_b2b hc2c9 hc2_c5 hc2s2a hc2c8 hc2_b2c hc2c7 hc2_c6 hc2_c7 hc2_c8 hc2_c9
-hc2_b2a hc2_b2b hc2_b2c
 hc2_c10 hc2_c11 hc2_c12 hc2_b4 hc2c14 hc2_a1 hc2_s2 hc2_c1 hc2_b1 hc2_a2 hc2_s2a hc2_c3 hc2_b2a hc2b1 hc2a1 hc2_s2b hc2_b3 hc2_c4 hc2_b2b hc2c9 hc2_c5 hc2s2a hc2c8 hc2_b2c hc2c7 hc2_c6 hc2b4 hc2_c7 hc2_c8 hc2_c9
-hc2_s2b hc2_s2a hc2c9
 he1 he2 he3
 headcrabs_maze headcrabs_maze2 headcrabs_maze3 headcrabs_maze3b
 hellmouth hellmouth2
@@ -295,7 +289,6 @@ platoon1 platoon2 platoon3 platoon4 platoon5
 pof0 pof0a pof1 pof2 pof3 pof4 pof5
 portal_house_a1 portal_house_a1_climax portal_house_a2 portal_house_a2_climax portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b portal_house_c portal_house_c_climax portal_house_d
 portal_house_a1_r portal_house_a1_climax_r portal_house_a2_r portal_house_a2_climax_r portal_house_a3_r portal_house_a3_climax_r portal_house_a4_r portal_house_a4_climax_r portal_house_b_r portal_house_c_r portal_house_c_climax_r portal_house_d_r
-portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b
 po_c0m1 po_c0m2 po_c0m3 po_intro po_c1m1 po_c1m2 po_c1m3 po_c1m4 po_c2m1 po_c2m2 po_c2m3 po_c2m4 po_c2m5 po_c3m1 po_c3m2 po_c3m3 po_c3m4 po_c3m5 po_c3m6 po_c3m7 po_c3m8 po_c4m1 po_c4m2 po_c4m3 po_c4m4 po_c4m5 po_c5m1 po_outro pv_intro pv_c1m1 pv_c1m2 pv_c1m3 pv_c1m4 pv_c1m5 pv_c2m1 pv_c2m2 pv_c2m3 pv_c2m4 pv_c2m5 pv_c3m1 pv_c3m2 pv_outro
 po_merged00 po_merged01 po_merged02 po_merged03_1 po_merged03_2 po_merged03_3 po_merged03_4 po_merged03_5 po_merged03_6 po_merged04_1 po_merged04_2 po_merged04_3 po_merged05 pv_merged00 pv_merged01 pv_merged01_2 pv_merged01_3 pv_merged02 pv_merged02_2 pv_merged02_3 pv_merged02_4 pv_merged03 pv_merged_outro
 pql_1 pql_2 pql_3 pql_4 pql_4a pql_5 pql_6 pql_7 pql_8 sc_caget radix sc_verc_18
@@ -319,7 +312,6 @@ ragemap2023a ragemap2023b ragemap2023c
 ragemap3_1_beta ragemap3_2_beta
 recon1 recon2 recon3 recon4 recon5 recon6 recon7 recon8 recon9
 reconnaissance1 reconnaissance2
-rede0 rede1 rede2 rede1m4 rede1m5 rede2m1 rede3 rede4 rede5 rede6_1 rede3m3 rede3m4 rede7 rede3m5a rede3m5b rede8 rede3m7 rede4m3
 rede0 rede1 rede2 rede1_a rede1m4 rede1m5 rede2_a rede2m1 rede3 rede1m3 rede1m6 rede2_b rede2m1a rede4 rede1m2 rede2m2 rede5 rede1m1 rede2m2a rede6_1 redintro rede2m3 rede6_1_a rede3m3 rede3m4 rede7 rede2m3a rede3m2 rede3m5 rede3m5a rede3m5b rede8 rede2m3b rede3m1 rede3m5c rede3m7 rede8_a rede4m3 rede2m4 rede2m6a rede3m6 rede4m1 rede4m2 rede2m4a rede2m6 rede3m6a rede4m1a rede2m5 rede2m5a
 rede6 rede3m3 rede3m4 rede7 rede3m2 rede3m5 rede3m5a rede3m5b rede8 rede3m1 rede3m5c rede3m7 rede8_a rede4m3 rede2m6a rede3m6 rede4m1 rede4m2 rede2m6 rede3m6a rede4m1a rede2m5a rede2m5 rede2m4a rede2m4 rede2m3b rede2m3a rede2m3 rede2m2a rede2m2 rede2m1a rede2m1 rede1m6 rede1m5 rede1m4 rede1m3 rede1m2 rede1m1 redintro
 rede_db1 rede_db2
@@ -416,8 +408,6 @@ sc_volt2 sc_volt2a
 sc_wilkes sc_wilkes_b1 sc_wilkes_c2 sc_wilkes_d3
 sc_worms_series sc_worms_series2 sc_worms_series3
 seaside_a seaside_b
-secretcity6b6 secretcitykeen_beta
-secretcitykeen_2_alpha die
 secretcityx secretcity6b6 secretcitykeen_beta secretcitykeen_2_alpha die fracb1 reddeath
 secretcity_r_1 secretcity_r_2 secretcity_r_3 secretcity_r_4 secretcity_r_5 secretcity_r_5x secretcity_r_6 secretcity_r_k secretcity_r_k2 secretcity_r_die secretcity_r_frac secretcity_r_red
 sectore4prealpha redshift4_foam_alpha
@@ -442,7 +432,6 @@ ssa_hatshepsut ssa_hatshepsut2
 stackdeathpb1 stackdeathpb2
 survivor1 survivor2extended survivor3 survivor4ext
 svencontra2_1a svencontra2_1b svencontra2_2a svencontra2_2b
-svencoop1 svencoop2
 sven_rpg1 sven_rpg2
 svor01 svor00 svor02
 t0a0a t0a0b1 t0a0b2 t0a0c t0a0d
@@ -485,7 +474,6 @@ tunnelvision_1 tunnelvision_2 tunnelvision_3 tunnelvision_4 tunnelvision_5 tunne
 tunnelvision_1 tunnelvision_2 tunnelvision_3 tunnelvision_4 tunnelvision_5balls
 tunnelvision_1b tunnelvision_1c tunnelvision_2 tunnelvision_3 tunnelvision_4 tunnelvision_5 tunnelvision_6
 tunnelvision_1b tunnelvision_1c tunnelvision_2 tunnelvision_3 tunnelvision_4 tunnelvision_5balls
-tunnelvision_5 tunnelvision_6
 tuntis_blackmesadefence1 tuntis_blackmesadefence2
 tututu1 tututu2 tututu3 tututu4 tututu5 tututu6 tututu7 tututu8 tututu9 tututu10
 twhltower_1 twhltower_2

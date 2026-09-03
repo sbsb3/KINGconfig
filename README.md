@@ -27,3 +27,17 @@ sudo bash setup_swap.sh
 # Optional: also rsync those lists to the second server
 # SYNC_REMOTE=1 ./deploy_maps.sh
 ```
+
+## Series map near-duplicate cleanup
+
+`dedupe_series_maps.py` removes incomplete duplicate lines from `series_maps.txt` (same strict-subset idea as commit `b58d869`), scoring each candidate with BSP `trigger_changelevel` edges so removals are confirmed rather than name-guessed.
+
+```bash
+# Dry-run → dedupe_series_maps_report.txt
+./dedupe_series_maps.py
+
+# Rewrite series_maps.txt (keeps .bak)
+./dedupe_series_maps.py --apply
+```
+
+Does **not** collapse high-overlap non-subsets (difficulty routes, mid-start forks, version packs). Those need a more aggressive mode if wanted later.

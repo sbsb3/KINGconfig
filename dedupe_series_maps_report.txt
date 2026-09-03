@@ -1,0 +1,48 @@
+dedupe_series_maps report
+========================================================================
+Subset candidates: 12
+Marked for removal: 12
+BSPs scanned: 251 / 263 needed names indexed-or-missing
+
+--- HIGH (12) ---
+  [REMOVE] L25 (21 maps) aom_training  ⊂  L16 (98 maps) afraidofmonsters_lobby
+           BSP edges 20/20 known consecutive (of 20); same_component=True
+           shorter: aom_training aom_intro aom_nightmare aom_hospital aom_hospital2 aom_garage aom_backalley aom_darkalley aom_city aom_city2 ...
+  [REMOVE] L69 (7 maps) case1  ⊂  L70 (12 maps) case1
+           BSP edges 6/6 known consecutive (of 6); same_component=True
+           shorter: case1 case2 case3 case4 case5 case6 case7
+  [REMOVE] L128 (12 maps) escape_series_1a  ⊂  L127 (13 maps) escape_series
+           BSP edges 11/11 known consecutive (of 11); same_component=True
+           shorter: escape_series_1a escape_series_1b escape_series_2a escape_series_2b escape_series_2c escape_series_2d escape_series_2e escape_series_3a escape_series_3b escape_series_3c ...
+  [REMOVE] L149 (23 maps) fi_c01_a1  ⊂  L150 (25 maps) fi_lobby
+           BSP edges 22/22 known consecutive (of 22); same_component=True
+           shorter: fi_c01_a1 fi_c01_a2 fi_c02_a1 fi_c02_a2 fi_c03_a1 fi_c03_a2 fi_c03_a3 fi_c04_a1 fi_c04_a2 fi_c05_a1 ...
+  [REMOVE] L172 (3 maps) hc2_b2a  ⊂  L171 (32 maps) hc2_b2
+           BSP edges 2/2 known consecutive (of 2); same_component=True
+           shorter: hc2_b2a hc2_b2b hc2_b2c
+  [REMOVE] L174 (3 maps) hc2_s2b  ⊂  L171 (32 maps) hc2_b2
+           BSP edges 1/2 known consecutive (of 2); same_component=True
+           shorter: hc2_s2b hc2_s2a hc2c9
+  [REMOVE] L298 (5 maps) portal_house_a3  ⊂  L296 (12 maps) portal_house_a1
+           contiguous sublist of L296
+           shorter: portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b
+  [REMOVE] L322 (18 maps) rede0  ⊂  L323 (49 maps) rede0
+           BSP edges 11/17 known consecutive (of 17); same_component=True
+           shorter: rede0 rede1 rede2 rede1m4 rede1m5 rede2m1 rede3 rede4 rede5 rede6_1 ...
+  [REMOVE] L419 (2 maps) secretcity6b6  ⊂  L421 (7 maps) secretcityx
+           contiguous sublist of L421
+           shorter: secretcity6b6 secretcitykeen_beta
+  [REMOVE] L420 (2 maps) secretcitykeen_2_alpha  ⊂  L421 (7 maps) secretcityx
+           contiguous sublist of L421
+           shorter: secretcitykeen_2_alpha die
+  [REMOVE] L445 (2 maps) svencoop1  ⊂  L30 (4 maps) area_zero
+           contiguous sublist of L30
+           shorter: svencoop1 svencoop2
+  [REMOVE] L488 (2 maps) tunnelvision_5  ⊂  L486 (7 maps) tunnelvision_1b
+           contiguous sublist of L486
+           shorter: tunnelvision_5 tunnelvision_6
+
+--- MEDIUM (0) ---
+
+--- LOW (0) ---
+
