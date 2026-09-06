@@ -1,4 +1,3 @@
-101grnt1
 101grnt_v1
 101grunts
 123456_v1
@@ -12,7 +11,6 @@
 5waystodie1-2
 6doors
 7days_r_1
-7hourswar_ep1
 7hourswarep1-2m
 TD-1
 WRECK
@@ -23,9 +21,7 @@ aa_protozoaire_suite
 abandoned
 abeyance
 accesspoint
-acopz
 acopz1-2m
-actual
 actual1-2m
 adamfun
 adams_dungeon
@@ -33,21 +29,17 @@ adams_dungeon-20231225
 adams_puzzles_beta2
 adato1
 adayinhell1-2m
-adayinhelle1
 adventure_v1
 aemos
 aerodock1
 af1
 afkw1b
 afraidofmonsters_lobby
-afrikakorps1
 afrikakorps1-3m
 afrikakorps_bonus
 agpain1
 aircontact
 airport1-2m
-airport_2_beta
-airport_beta
 alamo1
 alienfight
 alienplanet
@@ -70,9 +62,7 @@ area49_2
 area_zero
 arena_wildlife_annex
 artifact
-ascii_art
 ascii_art1-2m
-ascii_art2
 aship1
 asmap00
 assaultmesa2
@@ -127,7 +117,6 @@ bmtcoop
 bootsquad1
 bootsquad_r_1
 boredgasm2_a10
-borgcube
 borgcube1-2m
 bossbattle
 botparty
@@ -147,15 +136,12 @@ btw1
 btx1
 bunker
 bw
-cad_ctraining
-cad_lab1
 cad_merged00
 caged-1
 camp
 canyondoom4
 captured
 case1
-casino_vulcano_l1
 casino_vulcano_l1-3m
 cassault1
 catharsis
@@ -192,7 +178,6 @@ con3_1
 con3_huba
 conect
 conundrum3_1
-coop1
 coop1-3m
 coop_kz_concretejungle
 cow_tycoon
@@ -208,9 +193,7 @@ crazyteleport
 crazywalker_beta
 crimecity
 crimecity2
-crisis1
 crisis1-2m
-crisis2
 croodcoop
 crossedpaths1
 crusades4
@@ -237,11 +220,9 @@ d2_prison_1
 damned_forest_demo
 damned_map1
 damnedforest_demo
-darkforest1
 darkforest1-2m
 darkstar
 darkstar_merged01
-darkvoyage
 darkvoyagep1-2m
 davtrain-1
 davtrain1
@@ -301,7 +282,6 @@ ectopit_r
 edificio_aislado_v6
 ein1
 enc-1
-enc1
 energy
 enroute66
 eod1
@@ -323,7 +303,6 @@ etf_1
 etherlab_v1
 evasion_1
 evilmansion
-execommand
 execommand1-3m
 exhale1
 exhale1platinum
@@ -366,7 +345,6 @@ frightmanor
 frostline_v1r2
 fun_waterpark
 fun_zone_sc
-g-ara1
 g-ara1-5m
 g-man
 garage
@@ -416,7 +394,6 @@ halloween_hospital
 hamsters
 haphazard
 hardcoregaming
-haunted1
 haunted1-2m
 hauntedsouls-a1
 hauntedsouls-b1
@@ -443,7 +420,6 @@ hiddencentral1_beta
 hide_in_grass_v2
 hideandrape_v2
 hideandseek
-hidoi_map1
 hidoi_map1-2
 high-speed-cz1
 high_rise_final1
@@ -461,7 +437,6 @@ hl_u12_a1
 hl_uw_c01_a2
 hlbar_canteen
 hlcomando_1
-hlm_mission01
 hlm_mission1-2
 hlplu1
 hlplu_1
@@ -493,7 +468,6 @@ icu2
 incoming
 infested
 infiltracja-1
-infiltracja1
 infiltrate
 infiltration
 infinite_rift1
@@ -522,7 +496,6 @@ it_has_leaks
 ja_base
 jacked
 jail-escape
-jailbreak
 jailbreak1-2
 jbase1
 jimblox_obby
@@ -533,7 +506,6 @@ jungle_1
 jurassicpark
 jurassicpark-pt1
 jurassicpark_pt1
-justcause01
 justcause1-3m
 justify_this
 justislave
@@ -656,7 +628,6 @@ normall1
 nothing
 ns_escape
 nuearth
-nw1
 nwmerged0
 oberon14
 oblivious
@@ -848,7 +819,6 @@ sc_argentina_series
 sc_argentina_tiroteo
 sc_army4final21
 sc_assault
-sc_avp
 sc_avp1-4m
 sc_aztec
 sc_backattack
@@ -880,7 +850,6 @@ sc_dangerous_sector
 sc_dark_seekers_2_final
 sc_dark_seekers_final
 sc_darknebula
-sc_dead_zone
 sc_dead_zone1-2m
 sc_deadthings2_txt
 sc_deadthings_txt
@@ -919,7 +888,6 @@ sc_gosu
 sc_greysnake1
 sc_grinch
 sc_grinch_fix
-sc_habitat
 sc_habitat1-2m
 sc_halo
 sc_hammerhead4
@@ -1014,7 +982,6 @@ sc_spaceviking2
 sc_spacewar
 sc_stormit1
 sc_straightreloaded
-sc_strangers
 sc_strangers-1
 sc_streetrun
 sc_streetrunbeta2
@@ -1146,7 +1113,6 @@ square_run
 ss0a0
 st2a_v1
 stacja
-stackdeathpb1
 stackdeathpb1-2m
 stadium4
 starcraft2
@@ -1212,7 +1178,6 @@ tb_zombiesewer
 tb_zombietown
 tbtest1
 tc_1
-td0
 te1
 temp-916
 th_after_event
@@ -1260,7 +1225,6 @@ toonrun1classic
 tora
 torn2
 touhou_hakureijinja
-tower1
 tower1-5
 tower6
 tower_v1
@@ -1282,7 +1246,6 @@ tubers_r
 tues_sciguard_beta2
 tunnelvision1
 tunnelvision_1
-tututu1
 tututu_v1
 twhltower_1
 txp1
@@ -1294,9 +1257,7 @@ ub_megaman
 ub_megaman1-3
 ub_nagoya_v2
 uboa
-uboa_argentino
 uboa_argentino1-2
-uboa_argentino2
 uboa_bossrush
 uboa_rampage
 uboa_rampage_ii
