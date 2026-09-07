@@ -154,6 +154,8 @@ corruptworld_01
 cp_duststrm
 cr_wayne
 crack_crossfire
+cracklife2_1
+cracklife2_2
 crazylabyrinth
 crazymaze
 crazywalkerb5
