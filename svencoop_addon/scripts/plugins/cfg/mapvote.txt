@@ -184,8 +184,6 @@ cow_tycoon
 cr_wayne_v2
 cra_a4
 crablegs
-cracklife2_1
-cracklife2_2
 cracklife_c00
 cracklife_c01_a1
 craxnhax
