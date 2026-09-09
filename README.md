@@ -4,6 +4,8 @@
 
 mapcycle.txt is for ALL MAPS server.. mapcycle3.txt is for nofun server
 
+`default_plugins2.txt` / `3` / `5` / `6` are the AngelScript plugin lists for CSguns (`svenserver-2`), nofun (`svenserver-3`), InsALL (`svenserver-5`), and Testing (`svenserver-6`). Ban Manager edits the live copies in `serverfiles/svencoop/` and syncs these files on save. Disable a plugin by commenting out its `"plugin" { ... }` block.
+
 hidden_nom_maps.txt in svencoop_addon/scripts/plugins/cfg are maps with a large nom cooldown that never randomly show up in the RTV menu (meme/hidden noms). A map should be in mapvote **or** hidden_nom, not both.
 
 admins can create survival checkpoints with `.survival` command

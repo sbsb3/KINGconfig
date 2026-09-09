@@ -1,0 +1,410 @@
+//========================================
+//
+//	This file lists all plugins that are loaded by the game
+//	Plugins use Angelscript
+//
+//========================================
+"plugins"
+{
+	"plugin"
+	{
+		"name" "AntiRush"
+		"script" "AntiRush"
+	}
+	"plugin"
+    	{
+        "name" "PlayerStatus"
+        "script" "PlayerStatus2"
+   	 }
+	"plugin"
+	{
+		"name" "AntiBlock"
+		"script" "AntiBlock"
+		"concommandns" "ab"
+	}
+	"plugin"
+	{
+		"name" "Lost"
+		"script" "Lost"
+		"concommandns" "lost"
+	}
+	"plugin"
+	{
+		"name" "AfkAbuseN"
+		"script" "AfkAbuseN"
+	}
+
+	 "plugin"
+  	{
+    		"name" "emotes"
+    		"script" "emotes"
+  	}
+	 "plugin"
+  	{
+    		"name" "ghosts"
+    		"script" "ghosts/ghosts"
+    		"concommandns" "ghosts"
+  	}
+	"plugin"
+	{
+       	"name" "SimpleTrail"
+       	"script" "Zode/SimpleTrail"
+       	"concommandns" "strail"
+	}
+	"plugin"
+		{
+            "name" "DontForcePlayerModels"
+            "script" "DontForcePlayerModels"
+        }
+	"plugin"
+		{
+            "name" "PlayerModelPrecacheDyn"
+            "script" "PlayerModelPrecacheDyn"
+        }
+	"plugin"
+       {
+            "name" "Msg"
+            "script" "admin/Msg"
+            "concommandns" "msg"
+        }
+	"plugin"
+	{
+		"name" "ChatBubble"
+		"script" "ChatBubble"
+	}
+	"plugin"
+	{
+		"name" "Help"
+		"script" "Help"
+		"concommandns" "msg"
+	}
+	"plugin"
+	{
+		"name" "SvenFixes"
+ 		"script" "SvenFixes"
+	}
+	"plugin"
+	{
+		"name" "PeriodicFixes"
+		"script" "PeriodicFixes"
+	}
+   	"plugin"
+   {
+		"name" "EasyTeleport"
+		"script" "EasyTeleport"
+		"concommandns" "eztp"
+    }
+	"plugin"
+    	{
+        	"name" "PlayerRegen"
+        	"script" "PlayerRegen"
+        	"concommandns" "pregen"
+		}
+	"plugin"
+	{
+        "name" "SimpleGlow"
+        "script" "Zode/SimpleGlow"
+        "concommandns" "sglow"
+	}
+	"plugin"
+	{
+		"name" "rgbglows"
+		"script" "rgbglows/rgbglows"
+	}
+	"plugin"
+	{
+		"name" "ForceSurvival"
+ 		"script" "ForceSurvival2"
+//		"concommandns" "fsurvival"
+	}
+   	"plugin"
+	{
+		"name" "RockTheVote"
+		"script" "RockTheVote/RockTheVotecsmerged"
+		"concommandns" "rtv"
+	}
+	"plugin"
+	{
+		"name" "ControlNpc"
+		"script" "../maps/controlnpc/cnpc"
+		"concommandns" "controlnpc"
+	}
+	"plugin"
+	{
+		"name" "Quake2Weapons"
+		"script" "../maps/quake2/q2plugin"
+	}
+    "plugin"
+    {
+		"name" "PartyMode"
+		"script" "PartyMode"
+    }
+	"plugin"
+    {
+        "name" "ListPlayerModels"
+        "script" "ListPlayerModels"
+    }
+	"plugin"
+	{
+		"name" "ClassicModeDeluxe"
+		"script" "ClassicModeDeluxe/ClassicModeDeluxe"
+		"concommandns" "cm"
+	}
+	"plugin"
+	{
+		"name" "TurretSoundFix"
+		"script" "TurretSoundFix"
+	}	
+	"plugin"
+	{
+		"name" "SMaker"
+		"script" "SMaker"
+	}
+    "plugin"
+    {
+        "name" "Spectate"
+        "script" "Spectate2"
+    }
+	"plugin"
+    {
+        "name" "DynamicDifficultyTWLZ3"
+       "script" "DynamicDifficultyTWLZ3"
+    }
+    "plugin"
+    {
+        "name" "AllahuAkbar"
+        "script" "AllahuAkbar"
+    }    
+	"plugin"
+    {
+        "name" "UnstickPlayer"
+        "script" "UnstickPlayer"
+    }	
+	"plugin"
+	{
+		"name" "PeePeePooPoo2"
+		"script" "PeePeePooPoo2"
+	}	
+	    "plugin"
+    {
+        "name" "ChatColorsM"
+        "script" "ChatColorsM"
+    }
+//	"plugin"
+// {
+//      "name" "ff" 
+//       "script" "ff"
+//		"concommandns" "ff"
+//	}
+    "plugin"
+    {
+        "name" "FF"
+        "script" "FF"
+        "concommandns" "ff"
+    }
+		"plugin"
+	{
+		"name" "UpdateFixes"
+		"script" "UpdateFixes"
+	}					
+	"plugin"
+	{
+		"name" "Hats2"
+		"script" "Hats2"
+	}	
+	"plugin"
+	{
+		"name" "Trails"
+		"script" "Trails3"
+	}			
+	"plugin"
+	{
+		"name" "SoundCache"
+		"script" "SoundCache/SoundCache"
+	}
+	"plugin"
+	{
+		"name" "VoiceCommands"
+		"script" "voice_commands/VoiceCommands"
+		"concommandns" "vc"
+	}
+	"plugin"
+	{
+		"name" "customflnv"
+		"script" "customflnv"
+	}
+//	"plugin"
+//	{
+//		"name" "Nightvision"
+//		"script" "Nightvision"
+//	}	'
+	"plugin"
+	{
+		"name" "TooManyPolys"
+		"script" "TooManyPolys/TooManyPolys"
+		"concommandns" "hipoly"
+	}
+//	"plugin"
+//	{
+//		"name" "AntiStall"
+//		"script" "AntiStall"
+//		"concommandns" "antistall"
+//	}
+	"plugin"
+	{
+		"name" "AntiCheat"
+		"script" "AntiCheat"
+	}
+	"plugin"
+	{
+		"name" "doom_maps"
+		"script" "doom_maps"
+	}	
+	"plugin"
+	{
+		"name" "pvp"
+		"script" "pvp"
+		"concommandns" "pvp"
+	}	
+	"plugin"
+	{
+		"name"          "BuyMenuMerged"
+		"script"        "BuyMenuMerged"
+		"concommandns"  "wm"
+	}
+	"plugin"
+	{
+		"name" "AntiSpam"
+		"script" "AntiSpam"
+		"concommandns" "antispam"
+	}
+	"plugin"
+	{
+		"name" "Teleport"
+		"script" "Teleport"
+	}	
+	"plugin"
+	{
+		"name" "ChatSounds"
+		"script" "ChatSounds/ChatSounds"
+	}
+	"plugin"
+	{
+		"name" "MicFix"
+		"script" "MicFix"
+	}	
+	"plugin"
+	{
+		"name" "Mute"
+		"script" "Mute"
+	}
+	"plugin"
+	{
+		"name" "ShootableNades"
+		"script" "ShootableNades"
+	}
+	"plugin"
+	{
+		"name" "GrenadeBug"
+		"script" "GrenadeBug"
+		"concommandns" "gb"
+	}
+	"plugin"
+    {
+		"name" "Pet Followers"
+		"script" "pets2"
+    }
+	"plugin"
+	{
+		"name" "SpeedoMeter"
+		"script" "SpeedoMeter"
+	}
+	"plugin"
+	{
+		"name" "TwlzSuperMoves"
+		"script" "TwlzSuperMoves"
+	}
+	"plugin"
+	{
+		"name" "mapinfo"
+ 		"script" "mapinfo3"
+	}
+    "plugin"
+    {
+        "name" "BleedOut"
+        "script" "BleedOut"
+    }
+ //   "plugin"
+//	{
+//		"name" "BuyStuff3"
+//		"script" "BuyStuff3"
+//    }
+	"plugin"
+    {
+        "name" "ThrowDosh"
+        "script" "ThrowDosh"
+    }	
+	"plugin"
+    {
+        "name" "TimeLeft"
+        "script" "TimeLeft"
+    }
+	"plugin"
+	{
+		"name" "KeepInventory"
+ 		"script" "KeepInventory"
+	}
+//	"plugin"
+//	{
+//		"name" "Fireworks"
+//		"script" "Fireworks_plugin"
+//		"concommandns" "fireworks"
+//	}	
+	"plugin"
+	{
+		"name" "StaticCfg"
+ 		"script" "StaticCfg"
+	}
+	"plugin"
+	{
+		"name" "HookMod"
+		"script" "HookMod"
+	}
+	"plugin"
+	{
+		"name" "HookModAF"
+		"script" "HookModAF"
+		"concommandns" "hookaf"
+	}
+	"plugin"
+    	{
+        	"name" "AFBase"
+        	"script" "AFBase"
+    	}
+	"plugin"
+		{
+			"name"    "WeaponDynamicSlotPos"
+			"script" "WeaponDynamicSlotPos/WeaponDynamicSlotPos"
+		}
+	"plugin"
+	{
+		"name" "ChatBridge2"
+ 		"script" "ChatBridge2"
+	}	
+	"plugin"
+	{
+		"name" "ChatBridge2d"
+ 		"script" "ChatBridge2d"
+	}
+	"plugin"
+	{
+		// tells metamod when angelscript handles a chat message
+		"name" "AsChatFlag"
+ 		"script" "AsChatFlag"
+	}
+//	"plugin"
+//	{
+//	"name" "Pumpkin"
+//	"script" "Pumpkin"
+//	}   
+}
