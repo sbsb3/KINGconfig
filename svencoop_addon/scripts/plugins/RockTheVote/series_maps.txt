@@ -191,6 +191,7 @@ hq2_6 hq2_5 hq2_7 hq2_8 hq2_9 hq2_10 hq2_11 hq2_12 hq2_13 hq2_14 hq2_15 hq2_16 h
 hq2_9v2 hq2_8 hq2_10 hq2_9 hq2_11 hq2_12 hq2_13 hq2_14 hq2_15 hq2_16 hq2_17 hq2_22 hq2_23 hq2_24 hq2_25 hq2_26 hq2_27 hq2_28 hq2_29 hq2_30
 hr_dream-1 hr_dream-2 hr_dream-3 hr_dream-4
 hr_dreamintro hr_dream2 hr_dream3 hr_dream4 hr_dream5 hr_dream6 hr_dream7 hr_dream8 hr_dream9 hr_dream10 hr_dream11 hr_dreamoutro dream11
+hr_redridge1 hr_redridge2 hr_redridge3 hr_redridge4 hr_redridge5 hr_redridge5a hr_redridge6 hr_redridge7 hr_redridge8 hr_redridge9 hr_redridge10 hr_redridge11
 htc_1 htc_2 htc_3
 htc_c01 htc_c02 htc_c03 hunt1 htc_c04 hunt3 htc_c05 choose_campaign_v4
 infested infested2
@@ -297,6 +298,7 @@ prisoned prisoned-2 prisoned-3 prisoned-4 prisoned-last_resort
 prisoned1a prisoned1b prisoned2
 prisoned2a prisoned2b
 prisonriot_erosion stadium3
+prize1 prize2
 projectg1 projectg2 projectg3 projectg4 projectg5 projectg6 projectg7 projectgscrt1a projectg8 projectgscrt1b
 projectguilty1 projectguilty2 projectguilty3
 project_orion1 project_orion2

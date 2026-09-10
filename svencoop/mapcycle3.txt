@@ -364,6 +364,7 @@ gf_landworld
 gf_snowday
 gf_wilkes
 ghost_buster
+ghouls_forest
 ghouls_forest2
 gitfest-1g
 gitfest1g
