@@ -286,6 +286,7 @@ peanyworldbeta1-1 peanyworldbeta1-2
 peanyworld_r_1-1 peanyworld_r_1-2 peanyworld_r_2-1a peanyworld_r_2-1b peanyworld_r_2-2 resistance
 pe_letonguesc_undergruond dreamstairs_v3
 ph_iv1 ph_iv2 ph_iv3 ph_iv4
+pizza_ya_san1 pizza_ya_san2
 platoon1 platoon2 platoon3 platoon4 platoon5
 pof0 pof0a pof1 pof2 pof3 pof4 pof5
 portal_house_a1 portal_house_a1_climax portal_house_a2 portal_house_a2_climax portal_house_a3 portal_house_a3_climax portal_house_a4 portal_house_a4_climax portal_house_b portal_house_c portal_house_c_climax portal_house_d
