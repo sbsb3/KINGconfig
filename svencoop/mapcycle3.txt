@@ -146,6 +146,8 @@ casino_vulcano_l1-3m
 cassault1
 catharsis
 cc_crossfire
+cd1
+cd_hub
 central_bunker
 central_bunker_r6
 cf_coop_a
@@ -385,6 +387,7 @@ gundam
 gut_reaction
 gut_reaction1
 gv_mission1
+gyudon_addict
 halflifuro
 halfquake
 halloween22f
