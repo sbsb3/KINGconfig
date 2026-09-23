@@ -39,6 +39,7 @@ agpain1
 aircontact
 airport1-2m
 alamo1
+alien_gate
 alienfight
 alienplanet
 alienshooter_demo
@@ -1279,6 +1280,7 @@ uplink_extended
 uplink_extended_r
 uprising
 urbicide_01
+uwa
 vengeance
 verc_1
 vger
