@@ -36,6 +36,7 @@ ast_r_1 ast_r_2
 aunit_1 aunit_2 aunit_3 aunit_4 aunit_5
 autonomy_lost1 autonomy_lost2 autonomy_lost3 autonomy_lost4 autonomy_lost5 lost4
 awaken1 awaken2 adam8 awaken3 adam7 adam15a adam15
+azuresheep_c00a_mv2 azuresheep_c00b_mv2 azuresheep_c01_mv2 azuresheep_c02a_mv2 azuresheep_c02b_mv2 azuresheep_c03a_mv2 azuresheep_c03b_mv2 azuresheep_c04_mv2 azuresheep_c05_mv2 azuresheep_c06_mv2 azuresheep_c07_mv2 azuresheep_c08a_mv2
 a_jungle_1 a_jungle_2 a_jungle_3 a_jungle_4 a_jungle_5 a_jungle_6 a_jungle_7
 back_whispers_1 back_whispers_2 back_whispers_3
 back_whispers_1_v2 back_whispers_2_v2 back_whispers_3_v2
