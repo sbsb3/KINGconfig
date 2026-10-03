@@ -1,0 +1,30 @@
+// AntiSpam whitelist prefix list
+// One prefix per line, matched case-insensitively against the start of a chat
+// message up to the next space (so a whitelisted "buy" also covers
+// "buy w ak47", "buy a", etc). Anything after a "//" is a comment. Blank
+// lines are ignored. (Comments use "//", not "#", since "#buy" below is
+// itself a literal prefix to match, not a comment.)
+//
+// A message from ANY player that starts with a listed prefix completely
+// bypasses AntiSpam -- no spam score is added, and it's never hidden/blocked,
+// even if that player is currently chat-blocked for other messages.
+//
+// These are the ins2 BuyMenu's recognized command prefixes (see
+// maps/ins2/BuyMenu.as's FirstArgChecker). Buying ammo/weapons fires several
+// of these in quick succession as normal gameplay, and AntiSpam runs before
+// BuyMenu's own ClientSay hook, so without this whitelist rapid buys would
+// get spam-blocked before BuyMenu ever sees them.
+
+buy
+/buy
+!buy
+.buy
+\buy
+#buy
+
+// Emotes.as's own chat command prefixes (see its ClientSay hook: args[0] ==
+// ".e" or starting with ".emote"). Emote spam is harmless (no text is ever
+// relayed -- Emotes.as always sets ShouldHide), and players commonly chain
+// several emotes in quick succession, so exempt them the same way as buys.
+.e
+.emote
