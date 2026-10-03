@@ -184,7 +184,6 @@ conundrum3_1
 coop1-3m
 coop3_kz_ruinsworld
 coop_kz_concretejungle
-cow_tycoon
 cr_wayne_v2
 cra_a4
 crablegs

@@ -150,6 +150,7 @@ coop1
 coop2
 coop3
 corruptworld_01
+cow_tycoon
 cp_duststrm
 cr_wayne
 crack_crossfire
