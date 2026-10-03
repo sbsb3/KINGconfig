@@ -28,3 +28,26 @@ buy
 // several emotes in quick succession, so exempt them the same way as buys.
 .e
 .emote
+
+// Utility commands from Help.as's command list. These are used repeatedly in
+// normal gameplay (locating teammates, climb-map teleports, unsticking,
+// toggles) and relay no player text, so exempt them like buys/emotes.
+.ping               // Lost.as: ".ping" / ".lost" (rapid re-checks for players)
+.lost
+.nightvision
+.flashlight
+.observer
+!stuck
+/tp
+/s                  // climb-map teleports; spammed while climbing
+/p
+/dosh
+!dosh
+/check
+.nofade
+.listmodels
+.help
+.help_icons
+.help_more
+.help_cfg
+.hookhelp
