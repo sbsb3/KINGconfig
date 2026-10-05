@@ -66,6 +66,7 @@ artifact
 ascii_art1-2m
 aship1
 asmap00
+asmap11
 assaultmesa2
 ast_c01
 ast_r_1
@@ -138,6 +139,7 @@ btw1
 btx1
 bunker
 bw
+cad_lab1
 cad_merged00
 caged-1
 camp
@@ -669,6 +671,7 @@ osprey_company
 otokotati_no_kouzan
 outerspacekek10
 ozku_generaldiscussion
+p98_01
 pacman_r
 pagoda_intro
 party3
@@ -1090,6 +1093,7 @@ shockraid_jungle
 skillrun_rs3
 skylined
 sledge
+smart_decoy1
 smashtv_beta
 snakes
 snarkfest_beta1

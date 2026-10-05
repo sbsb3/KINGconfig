@@ -26,6 +26,7 @@ arcad_v1 arcad2_v1
 arctic_ha arctic2_ha arctic3_ha
 arctic_incident_1 arctic_incident_2
 arctic_incident_1_v1 arctic_incident_2_v1
+area49_2 area49_2_r
 area_zero area_zero_xen svencoop1 svencoop2
 ascii_art ascii_art2
 asmerged00 asmerged01 asmapin asmap00 asmap00e asmerged02 asmap00b asmerged03_1 asmap00c asmerged03_2 asmap00d asmerged03_3 asmap01 asmerged04_1 asmap01b asmerged04_2 asmap01c asmerged05_1 asmap02 asmerged05_2 asmap02d asmerged05_3 asmap02b asmerged06 asmap02c asmerged07 asmap03 asmerged08 asmap07c asmap08 asmap03a asmap06b asmerged09 asmap07b asmap07y asmap06c asmap08b asmap03b asmap06 asmap09 asmerged10 asmap07 asmap08c asmap03c asmap05c asmap09b asmap08d asmap03d asmap05b asmap09c asmap09d asmap03e asmap05 asmap10 asmap09e asmap04 asmap04c asmap10b asmap04b asmap10c asmap11 asmap11b asmap11c asmapend
@@ -284,6 +285,7 @@ op_blackmesa1 op_blackmesa2 op_blackmesa3 op_blackmesa4 op_blackmesa5 op_blackme
 osd_intro osd_p01 osd_p02 osd_p03 osd_p04 osd_p05 osd_p06 osd_p07 osd_p08 osd_p09 osd_p10
 osd_r_1 osd_r_2 osd_r_3 osd_r_4
 oxycaves_beta9 oxysnowworld-1beta
+p98_01 p98_02
 pagoda_intro pagoda_out pagoda_in pagoda_boss pagodaoutside pagoda_end pagoboss
 peanyworldbeta1-1 peanyworldbeta1-2
 peanyworld_r_1-1 peanyworld_r_1-2 peanyworld_r_2-1a peanyworld_r_2-1b peanyworld_r_2-2 resistance
@@ -427,6 +429,7 @@ shift2_1 shift2_2
 shl_t0a0 shlwork shl0 shl1 shl2 shl3 shl4 shl5 shl6 shl7 shl6b shl8 shl9 shl9b shl10 shl11 shl_ship shl12 shl_ship2 shl13 shl_ship3 shl14 shl_ship4 shl14b shl_2001 shl15 shl16
 shl_training shl_0 shl_1 shl_2 shl_3 shl_4 shl_5 shl_4b shl_6 shl_5b shl_7
 sl_c01_a1 sl_c01_a2 sl_c02_a1 sl_c02_a2 sl_c03 sl_c04 sl_c05_a1 sl_c05_a2 sl_c05_a3 sl_c06 sl_c07_a1 sl_c07_a2 sl_c08_a1 sl_c08_a2 sl_c09 sl_c10 sl_c11_a1 sl_c11_a2 sl_c11_a3 sl_c11_a4 sl_c11_a5 sl_c12 sl_c13_a1 sl_c13_a2 sl_c13_a3 sl_c13_a4 sl_c14 sl_c15 sl_c16_a1 sl_c16_a2 sl_c16_a3 sl_c16_a4 sl_c17 sl_c18
+smart_decoy1 load smart_decoy2 smart_decoy2a
 source_of_life_1_a source_of_life_2_a source_of_life source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a source_of_life_1_a_v2 source_of_life_4_a source_of_life_4_b_v2 source_of_life_2_a_v2 source_of_life_5_a source_of_life_end
 source_of_life_4_b source_of_life source_of_life_5_a source_of_life_1_a_v2 source_of_life_end source_of_life_2_a_v2 source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a source_of_life_4_a source_of_life_4_b_v2
 spaceprisoner spaceprisoner2 fortified1
