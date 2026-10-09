@@ -214,6 +214,7 @@ ctf_warforts
 cwc1
 cwcr1b
 cyberneticmoon1g
+d1_canals_01
 d1_town_01
 d1_town_01s
 d1_town_04
@@ -1095,6 +1096,7 @@ skillrun_rs3
 skylined
 sledge
 smart_decoy1
+smart_decoy2a
 smashtv_beta
 snakes
 snarkfest_beta1

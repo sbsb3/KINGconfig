@@ -91,6 +91,7 @@ crystal crystal2
 crystal_mission_1 crystal_mission_2 crystal_mission_3 crystal_mission_4
 ct1 ct2
 cwc1 cwc2 cwc3 cwc4 cwc3a cwc4a
+d1_canals_01 d1_canals_01a
 d1_town_01 d1_town_01a d1_town_02 d1_town_03 d1_town_02b_disabled d1_town_02b d1_town_02a d1_town_04 d1_town_05
 d2_prison_1 d2_prison_002 d2_prison_003
 darkforest1 darkforest2
