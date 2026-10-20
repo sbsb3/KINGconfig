@@ -175,6 +175,7 @@ colonyx_r
 colourskills
 combined-1v3
 combined1v3
+combined3v3
 commap1
 complex
 con3_1
@@ -224,6 +225,7 @@ darkforest1-2m
 darkstar
 darkstar_merged01
 darkvoyagep1-2m
+davsub1
 davtrain-1
 davtrain1
 dbjr

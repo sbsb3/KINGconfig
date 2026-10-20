@@ -97,6 +97,7 @@ d2_prison_1 d2_prison_002 d2_prison_003
 darkforest1 darkforest2
 darkstar zoology1 zoology2 zoology3 zoology4 zoology5 zoology5pt2 zoology6 zoology7 zoology8 zoology9 zoology10 zoology11 zoology12 zoology13 zoology12pt2 zoology14 zoology15 zoology16
 darkstar_merged01 darkstar_merged02 darkstar_merged03 darkstar_merged04 darkstar_merged05
+davsub1 davsub2 davsub2a davsub3 davsub3a davsub4
 davtrain-1 davtrain-2
 davtrain1 davtrain2 davtrain3 davtrain4
 dbm_1 dbm_2 dbm_3 dbm_4 dbm_5 dbm_6 dbm_7 dbm_8 dbm_9 dbm_10 dbm_11 dbm_12 dbm_13 dbm_14 dbm_15 dbm_16 dbm_17 dbm_18
