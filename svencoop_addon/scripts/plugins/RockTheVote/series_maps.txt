@@ -127,6 +127,7 @@ enc-1 enc-2
 enc1 enc2 enc3
 eod1 eod2 eod3 eod4 eod5
 epidauro-m1 epidauro-m2
+epp1 epp2
 escape_series escape_series_1a escape_series_2a escape_series_3a escape_series_1b escape_series_2b escape_series_3b escape_series_2c escape_series_3c escape_series_2d escape_series_3d escape_series_2e escape_series_3e
 eshq01 eshq02 eshq03 eshq04 eshq05 eshq06 eshq07 eshq08 eshq09 eshq10 eshq11 eshq12 eshq13 eshq14 eshq15 eshq16 eshq17 eshq18 eshq19 eshq20 eshq21 eshq22 eshq23 eshq24 eshq25 eshq26 eshq27 eshq28 eshq29 eshq30 eshq31 eshq32 eshq33 eshq34 eshq35 eshq36 eshq37 eshq38 eshq39 eshq40 eshq41 eshq42 eshq43 eshq44 eshq45 eshq46 eshq47 eshq48 eshq49 eshq50 eshq51 eshq52 eshq53 eshq54 eshq55 eshq56 eshq57 eshq58 eshq59 eshq60 eshq61a eshq62 eshq63 eshq64 eshq65 eshq66 eshq67 eshq_end
 esw_1 esw_2
@@ -167,6 +168,7 @@ hauntedsouls-a1 hauntedsouls-a2 hauntedsouls-b1 hauntedsouls-b2 hauntedsouls-b3 
 hauntedsouls_a1 hauntedsouls_a2 hauntedsouls_b1 hauntedsouls_b2 hauntedsouls_b3 hauntedsouls_b4 hauntedsouls_b5 hauntedsouls_b6 hauntedsouls_b7 city5 hauntedsouls_b8 hauntedsouls_b9 hauntedsouls_b9a hauntedsouls_b10
 hauntedsouls_c1 hauntedsouls_c2 hauntedsouls_c3 hauntedsouls_c4 hauntedsouls_c4a hauntedsouls_c5 hauntedsouls_c5a hauntedsouls_c6 hauntedsouls_c6_final
 hauntedsouls_d1 hauntedsouls_d2 hauntedsouls_d3 hauntedsouls_d4 hauntedsouls_d5 hauntedsouls_d6 hauntedsouls_d7 hauntedsouls_d8 hauntedsouls_d9 hauntedsouls_d10 hauntedsouls_d11 hauntedsouls_d12 hauntedsouls_d13
+hbcs_c02_a1 hbcs_c02_a2 hbcs_c03 hbcs_c04a hbcs_c05_a1b hbcs_c05_a2 hbcs_c05_a3 hbcs_c06 hbcs_c07_a1 hbcs_c07_a2 hbcs_c08_a1 hbcs_c08_a2 hbcs_c09 hbcs_c10 hbcs_c11_a1 hbcs_c11_a2 hbcs_c11_a3 hbcs_c11_a4 hlcs_c11_a3 hbcs_c11_a5 hbcs_c12 hbcs_c13_a1 hbcs_c13_a2 hbcs_c13_a3 hbcs_c13_b4 hbcs_c14 hbcs_c15 hbcs_c16_a1_oni hbcs_c16_a2 hbcs_c16_a3 hbcs_c16_a4 hbcs_c17 hbcs_c18
 hc1 hc2 hc3 hc4
 hc10 hc11
 hc2_a3 hc2a1
@@ -430,6 +432,7 @@ shadv_c0m1a shadv_c0m1b shadv_c1m1 shadv_c1m2
 shift2_1 shift2_2
 shl_t0a0 shlwork shl0 shl1 shl2 shl3 shl4 shl5 shl6 shl7 shl6b shl8 shl9 shl9b shl10 shl11 shl_ship shl12 shl_ship2 shl13 shl_ship3 shl14 shl_ship4 shl14b shl_2001 shl15 shl16
 shl_training shl_0 shl_1 shl_2 shl_3 shl_4 shl_5 shl_4b shl_6 shl_5b shl_7
+sid1 sid2
 sl_c01_a1 sl_c01_a2 sl_c02_a1 sl_c02_a2 sl_c03 sl_c04 sl_c05_a1 sl_c05_a2 sl_c05_a3 sl_c06 sl_c07_a1 sl_c07_a2 sl_c08_a1 sl_c08_a2 sl_c09 sl_c10 sl_c11_a1 sl_c11_a2 sl_c11_a3 sl_c11_a4 sl_c11_a5 sl_c12 sl_c13_a1 sl_c13_a2 sl_c13_a3 sl_c13_a4 sl_c14 sl_c15 sl_c16_a1 sl_c16_a2 sl_c16_a3 sl_c16_a4 sl_c17 sl_c18
 smart_decoy1 load smart_decoy2 smart_decoy2a
 source_of_life_1_a source_of_life_2_a source_of_life source_of_life_3_b source_of_life_3_a source_of_life_secret_1_a source_of_life_1_a_v2 source_of_life_4_a source_of_life_4_b_v2 source_of_life_2_a_v2 source_of_life_5_a source_of_life_end

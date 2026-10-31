@@ -12,6 +12,7 @@
 6doors
 7days_r_1
 7hourswarep1-2m
+7hw_killing_combines
 _player_sanctuary
 a_jungle_1
 aa_protozoaire
@@ -139,6 +140,7 @@ bunker
 bw
 cad_lab1
 cad_merged00
+cad_merged01
 caged-1
 camp
 canyondoom4
@@ -184,6 +186,7 @@ conect
 conundrum3_1
 coop1-3m
 coop_kz_concretejungle
+cp_floyd_1
 cr_wayne_v2
 cra_a4
 crablegs
@@ -292,6 +295,7 @@ energy
 enroute66
 eod1
 epidauro-m1
+epp1
 epsteinisland
 ertys_labyrint_v3
 escape_from_doomtown
@@ -412,6 +416,7 @@ hauntedsouls_b1
 hauntedsouls_c1
 hauntedsouls_d1
 haywire
+hbcs_c02_a1
 hc2_a1
 he1
 headcrabs-maze
@@ -1090,6 +1095,8 @@ shitty_pubg
 shl_0
 shl_1
 shockraid_jungle
+sid1
+skariz_brainhard2
 skillrun_rs3
 skylined
 sledge
