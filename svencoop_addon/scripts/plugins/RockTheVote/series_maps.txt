@@ -441,7 +441,6 @@ spaceprisoner spaceprisoner2 fortified1
 spb_act1 spb_act3
 squad_gman1 squad_gman2
 ss0a0 ss1a1 ss1a2 ss1a3 ss1a4 ss2a1 ss2a2 ss2a3 ss3a1 ss3a2 ss3a3 ss3a4 ss3a5 ss4a1 ss4a2 ss4a3 ss5a1 ss6a0
-ss1a1new ss1a3 ss1a4 ss2a1 ss2a2 ss2a3 ss3a1 ss3a2 ss3a3 ss3a4 ss3a5 ss4a1 ss4a2 ss4a3 ss5a1 ss6a0
 ssa_hatshepsut ssa_hatshepsut2
 stackdeathpb1 stackdeathpb2
 survivor1 survivor2extended survivor3 survivor4ext
