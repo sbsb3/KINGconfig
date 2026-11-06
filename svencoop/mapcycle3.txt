@@ -251,8 +251,6 @@ deltalab
 deltar
 deltareturn
 deluge_beta_v3
-desastre
-desastre_cap1
 desertbus
 desertbus_v1a
 desertcircle
