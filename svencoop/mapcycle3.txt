@@ -346,6 +346,7 @@ fired_01
 fishingse
 flee
 fm_fun
+focalpoint0
 forest_clearing1
 forest_clearing_1
 fort_gorgon

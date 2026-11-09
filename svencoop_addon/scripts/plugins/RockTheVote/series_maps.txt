@@ -150,6 +150,7 @@ faraon1 faraon2 faraon3 faraon4
 fate0 fate1 kaupunki canyon asepihauutta fate2 lumikohta lopullinenko fate3 battle outro avaruus katto
 fired01_mv1 fired02_mv1
 fi_lobby fi_c01_a1 fi_c04_a1 fi_c05_a1 fi_c02_a1 fi_c03_a1 fi_c06_a1 fi_c07_a1 fi_c08_a1 fi_c09_a1 fi_c10_a1 fid1a0 fi_c01_a2 fi_c04_a2 fi_c05_a2 fi_c02_a2 fi_c03_a2 fi_c06_a2 fi_c07_a2 fi_c08_a2 fi_c09_a2 fi_c10_a2 fi_c03_a3 fi_c06_a3 fi_c07_a3
+focalpoint0 focalpoint1 focalpoint2 focalpoint3 focalpoint4 focalpoint5 focalpoint6 focalpoint7 focalpoint7a focalpoint8 focalpoint7hub focalpoint9hub focalpoint7b focalpoint9 focalpoint10 focalpoint9b focalpoint7c focalpoint9a focalpoint11 focalpoint12 focalpoint13 focalpoint_train focalpoint_end
 forest_clearing1 forest_clearing2
 forest_clearing_1 forest_clearing_2 forest_clearing_3
 g-ara1 g-ara2 g-ara3 g-ara4 g-ara5
