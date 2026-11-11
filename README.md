@@ -26,7 +26,7 @@ sudo bash setup_swap.sh
 
 # Deploy mapcycle / mapvote / hidden_nom_maps (both server variants) to serverfiles
 ./deploy_maps.sh
-# Optional: also rsync those lists to the second server
+# Optional: also rsync those lists to every other box in the fleet (auto-detected, see FLEET_HOSTS)
 # SYNC_REMOTE=1 ./deploy_maps.sh
 ```
 
