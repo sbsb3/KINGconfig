@@ -1,0 +1,19 @@
+// BuyMenuMerged per-map weapon-pack blacklist (server 2)
+//
+// Maps listed here skip CS16 + INS2 weapon registration entirely, freeing
+// weapon-ID and model-precache budget for maps that ship their own weapon
+// packs. The buy menu hides the CS16/INS2 sections on these maps; Q2/CNPC
+// entries (registered by their own plugins) are unaffected.
+//
+// Re-read at every map change - no restart or plugin reload needed.
+//
+// Format: one map name per line, case-insensitive.
+//   //  or #        comment line
+//   trailing *      prefix match, e.g. "aomdc*" matches aomdc_v2, aomdc_final
+//
+// Examples (remove the // to activate):
+//aomdc*
+//ins2_*
+fallguys*
+botparty
+grunts_party*
