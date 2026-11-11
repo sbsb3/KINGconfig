@@ -10,6 +10,10 @@ hidden_nom_maps.txt in svencoop_addon/scripts/plugins/cfg are maps with a large 
 
 admins can create survival checkpoints with `.survival` command
 
+## New maps: updatemaps.sh → gusjs `mapintake`
+
+New maps from SCmapUpdater (scmapdb and the upload portal) now get a card in Discord #tasks. Staff pick the lists there (both servers, one server, hidden_nom, custom or skip), and gusjs on chicago edits these files, deploys them to chicago and london, runs `fix`, and commits and pushes here. Only the first map of a series is asked about. `updatemaps.sh` still works as a manual fallback.
+
 ## Merged map analysis
 
 `analyze_merged_maps.py` scans BSP entity lumps (same data as `ripent -export`, without loading whole BSPs into RAM) to find merged series maps and unmerged parts that should move into `hidden_nom_maps{,3}.txt`.
