@@ -1027,6 +1027,7 @@ sc_tropical1
 sc_tropical1_final
 sc_tropical_final
 sc_ts_lobby
+sc_txas
 sc_underground
 sc_unreal
 sc_verc_18
