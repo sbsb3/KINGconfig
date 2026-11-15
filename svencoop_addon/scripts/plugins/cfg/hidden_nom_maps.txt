@@ -406,6 +406,7 @@ keensolarsystem1
 keenworld1
 keenzonea9
 kh751
+kh8_11_15_2026_alpha
 kh8_alphatest
 kh8_alphatest2
 kh9r_alpha
