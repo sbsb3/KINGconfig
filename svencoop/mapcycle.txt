@@ -415,7 +415,6 @@ hauntedsouls_b1
 hauntedsouls_c1
 hauntedsouls_d1
 haywire
-hbcs_c02_a1
 hc2_a1
 he1
 headcrabs-maze
